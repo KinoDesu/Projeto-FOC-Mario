@@ -27,10 +27,6 @@ const controlBtns = {
     esc: document.querySelector(".start")
 };
 
-function isMobileDevice() {
-    return /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
-}
-
 const CONFIG = {
     type: Phaser.AUTO,
     width: CANVA_WIDTH,
@@ -181,15 +177,11 @@ function update() {
     }
 
     enemies.children.iterate(function (enemy) {
-        if (enemy.body.blocked.left || enemy.body.blocked.right) {
-            const cores = ['red', 'blue', 'green', 'pink']
-            let randomNum = Math.floor(Math.random() * 4) + 1
-            document.querySelector('.gameboy').style = 'background-color:' + cores[randomNum]
-            if (enemy.body.velocity.x > 0) {
-                enemy.setVelocityX(ENEMY_LEFT);
-            } else {
-                enemy.setVelocityX(ENEMY_RIGHT);
-            }
+        if (enemy.body.blocked.right) {
+            enemy.setVelocityX(ENEMY_LEFT);
+        }
+        else if (enemy.body.blocked.left) {
+            enemy.setVelocityX(ENEMY_RIGHT);
         }
     });
 
@@ -235,13 +227,10 @@ function addControlListeners(btn, direction) {
         handleEnd = () => btnPauseClick = false;
     }
 
-    if (isMobileDevice()) {
-        btn.addEventListener('touchstart', handleStart);
-        btn.addEventListener('touchend', handleEnd);
-    } else {
-        btn.addEventListener('mousedown', handleStart);
-        btn.addEventListener('mouseup', handleEnd);
-    }
+    btn.addEventListener('touchstart', handleStart);
+    btn.addEventListener('touchend', handleEnd);
+    btn.addEventListener('mousedown', handleStart);
+    btn.addEventListener('mouseup', handleEnd);
 
 }
 

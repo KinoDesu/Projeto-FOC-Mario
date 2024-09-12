@@ -1,9 +1,10 @@
 .gameboy {
     position: relative;
-    height: 90vh;
+    max-height: 95vh;
+    max-width: 90vw;
     aspect-ratio: 9/16;
     border-radius: 20px;
-    padding: 20px;
+    padding: 16px;
     background-color: #4f50db;
     box-shadow: 0px -5px 0px #0d0e51, 0px 5px 0px #3d38b5;
     font-family: sans-serif;
@@ -26,7 +27,7 @@
 
     .screen-area {
         position: relative;
-        padding: 15px 15px 15px 15px;
+        padding: 10px;
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -53,58 +54,6 @@
             border-radius: 3px;
             margin-bottom: 15px;
         }
-
-        .label {
-            position: relative;
-            text-align: center;
-            font-size: 20px;
-            z-index: 5;
-
-            .title {
-                display: inline;
-                font-weight: bold;
-                font-style: italic;
-            }
-
-            .subtitle {
-                display: inline;
-                font-family: "Comic Sans MS";
-                font-weight: bold;
-                font-size: 22px;
-                letter-spacing: -1px;
-
-                .c,
-                .o1,
-                .l,
-                .o2,
-                .r {
-                    display: inline-block;
-                }
-
-                .c {
-                    color: #aa2058;
-                }
-
-                .o1 {
-                    color: #605bd9;
-                    font-size: 20px;
-                }
-
-                .l {
-                    color: #78b930;
-                    transform: rotateZ(-10deg);
-                }
-
-                .o2 {
-                    color: #b6b524;
-                    font-size: 20px;
-                }
-
-                .r {
-                    color: #317aaf;
-                }
-            }
-        }
     }
 
     .controls {
@@ -115,32 +64,22 @@
         .dpad {
             position: relative;
             display: inline-block;
-            width: 125px;
-            height: 125px;
+            width: 128px;
+            height: 128px;
             z-index: 5;
 
             >* {
-                width: 33%;
-                height: 33%;
+                width: 32%;
+                height: 32%;
                 position: absolute;
                 background-color: #565e6a;
                 cursor: pointer;
 
-                i {
-                    position: relative;
-                    display: block;
-                    margin: 0 auto;
-                    text-align: center;
-                    height: 100%;
-                    font-size: 28px;
-                    color: #333a4a;
-                    text-shadow: 0px -0.5px 0px #aaa;
-                }
             }
 
             .up {
                 top: calc(0% + 4px);
-                left: 33%;
+                left: 32%;
                 border-top: 4px solid black;
                 border-left: 4px solid black;
                 border-right: 4px solid black;
@@ -149,15 +88,11 @@
                 &:active {
                     background: linear-gradient(to top, #565e6a 0%, #333 100%);
                 }
-
-                i {
-                    top: -5px;
-                }
             }
 
             .right {
-                top: 33%;
-                left: calc(66% - 4px);
+                top: 32%;
+                left: calc(64% - 4px);
                 border-top: 4px solid black;
                 border-bottom: 4px solid black;
                 border-right: 4px solid black;
@@ -167,15 +102,11 @@
                 &:active {
                     background: linear-gradient(to right, #565e6a 0%, #333 100%);
                 }
-
-                i {
-                    top: -5px;
-                }
             }
 
             .down {
-                top: calc(66% - 4px);
-                left: 33%;
+                top: calc(64% - 4px);
+                left: 32%;
                 border-left: 4px solid black;
                 border-bottom: 4px solid black;
                 border-right: 4px solid black;
@@ -188,7 +119,7 @@
             }
 
             .left {
-                top: 33%;
+                top: 32%;
                 left: calc(0% + 4px);
                 border-top: 4px solid black;
                 border-bottom: 4px solid black;
@@ -196,18 +127,14 @@
                 border-radius: 5px 0px 0px 5px;
                 box-shadow: 0px -2px 0px #888 inset;
 
-                i {
-                    top: -5px;
-                }
-
                 &:active {
                     background: linear-gradient(to left, #565e6a 0%, #333 100%);
                 }
             }
 
             .middle {
-                top: 33%;
-                left: 33%;
+                top: 32%;
+                left: 32%;
                 z-index: -5;
 
                 &::after {
@@ -244,16 +171,16 @@
         .a-b {
             position: relative;
             display: inline-block;
-            width: 120px;
-            height: 90px;
+            width: 144px;
+            height: 96px;
 
             .a,
             .b {
                 position: absolute;
                 display: inline-block;
                 font-size: 22px;
-                width: 50px;
-                height: 50px;
+                width: 48px;
+                height: 48px;
                 line-height: 40px;
                 border-radius: 50%;
                 background-color: #2c313e;
@@ -275,12 +202,12 @@
             }
 
             .a {
-                top: 15px;
-                right: 10px;
+                top: 16px;
+                right: 16px;
             }
 
             .b {
-                top: 35px;
+                top: 48px;
                 left: 0%;
             }
         }
@@ -288,7 +215,7 @@
 
     .start-select {
         width: 100%;
-        height: 60px;
+        height: 64px;
         display: flex;
         justify-content: center;
 
@@ -298,18 +225,18 @@
             color: #6b67ed;
             text-shadow: 0px -1px 0px #3436bf;
             letter-spacing: -1px;
-            width: 60px;
+            width: 64px;
             font-size: 16px;
             text-align: center;
-            margin-top: 20px;
+            margin-top: 16px;
 
             &::before {
                 content: '';
                 display: block;
                 margin: 0 auto;
-                width: 30px;
-                height: 10px;
-                margin-bottom: 5px;
+                width: 32px;
+                height: 16px;
+                margin-bottom: 8px;
                 border-radius: 40%;
                 background: linear-gradient(to bottom, #0b0a1c 0%, #0b0a1c 30%, #62636c 70%, #62636c 100%);
                 background-repeat: no-repeat;
@@ -323,40 +250,6 @@
             }
         }
     }
-
-    .speaker {
-        position: absolute;
-        display: flex;
-        width: 75px;
-        height: 75px;
-        right: 15px;
-        bottom: 5px;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        z-index: 100;
-        transform: skewY(-10deg);
-
-        .dot {
-            width: 7px;
-            height: 7px;
-            margin: 1px;
-            border-radius: 50%;
-        }
-
-        .dot.placeholder {
-            background-color: transparent;
-        }
-
-        .dot.open {
-            background-color: #0a0717;
-            box-shadow: 0px 0px 2px #7c7be0 inset;
-        }
-
-        .dot.closed {
-            background: linear-gradient(to bottom, #6664e5 0%, #2d3590 100%);
-            box-shadow: 0px 0px 2px #7c7be0 inset;
-        }
-    }
 }
 
 * {
@@ -365,13 +258,13 @@
 
 html,
 body {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
 }
 
 body {
-    padding: 30px;
+    padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,14 +1,10 @@
 import { BLOCK_SIZE, CANVA_WIDTH, CANVA_HEIGHT, SPIKE_HEIGHT, SPIKE_WIDTH, WORLD_WIDTH, PLAYER_SIZE, GRAVITY, JUMP_HEIGHT, ENEMY_RIGHT, ENEMY_LEFT } from '../Config.js'
 
 
-export class GameOverScene extends Phaser.Scene {
+export class MainMenuScene extends Phaser.Scene {
     constructor() {
-        super({ key: 'GameOverScene' });
+        super({ key: 'MainMenuScene' });
         this.selectedOption = 0;
-    }
-
-    init(data) {
-        this.previousScene = data.previousScene;
     }
 
     preload() {
@@ -16,16 +12,17 @@ export class GameOverScene extends Phaser.Scene {
 
     create() {
         this.cameras.main.setBackgroundColor('#FFF')
-        this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2, 'GAME OVER', { fontSize: '64px', fill: '#c472e0', align: 'center', fontFamily: 'Arial', fontStyle: 'bold', stroke: '#000', strokeThickness: 6 }).setOrigin(0.5, 0.5);
+        this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 - 50, 'Mario', { fontSize: '64px', fill: '#ff2f3f', align: 'center', fontFamily: 'Arial', fontStyle: 'bold', stroke: '#000', strokeThickness: 6 }).setOrigin(0.5, 0.5);
+        this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 10, 'Ciclo de Krebs', { fontSize: '64px', fill: '#c472e0', align: 'center', fontFamily: 'Arial', fontStyle: 'bold', stroke: '#000', strokeThickness: 6 }).setOrigin(0.5, 0.5);
 
         this.options = [
-            this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 50, 'Tentar Novamente', {
+            this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 100, 'Começar', {
                 fontSize: '32px',
                 color: '#ffffff',
                 fontFamily: 'Arial',
                 fontStyle: 'bold'
             }).setOrigin(0.5, 0.5),
-            this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 100, 'Sair', {
+            this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 150, 'Como Jogar?', {
                 fontSize: '32px',
                 color: '#ffffff',
                 fontFamily: 'Arial',
@@ -67,9 +64,9 @@ export class GameOverScene extends Phaser.Scene {
 
     selectOption() {
         if (this.selectedOption === 0) {
-            this.scene.start(this.previousScene);
+            this.scene.start('Level');
         } else if (this.selectedOption === 1) {
-            this.scene.start('MainMenuScene');
+            this.game.destroy(true);
         }
     }
 }

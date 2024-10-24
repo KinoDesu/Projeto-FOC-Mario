@@ -1,6 +1,5 @@
-import { BLOCK_SIZE, CANVA_WIDTH, CANVA_HEIGHT, SPIKE_HEIGHT, SPIKE_WIDTH, WORLD_WIDTH, PLAYER_SIZE, GRAVITY, JUMP_HEIGHT, ENEMY_RIGHT, ENEMY_LEFT } from '../Config.js'
-
-
+import { CANVA_WIDTH, CANVA_HEIGHT } from '../Config.js'
+import { activeControls } from "../Game.js";
 export class GameOverScene extends Phaser.Scene {
     constructor() {
         super({ key: 'GameOverScene' });
@@ -15,6 +14,7 @@ export class GameOverScene extends Phaser.Scene {
     }
 
     create() {
+        activeControls(this);
         this.cameras.main.setBackgroundColor('#FFF')
         this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2, 'GAME OVER', { fontSize: '64px', fill: '#c472e0', align: 'center', fontFamily: 'Arial', fontStyle: 'bold', stroke: '#000', strokeThickness: 6 }).setOrigin(0.5, 0.5);
 

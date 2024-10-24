@@ -1,28 +1,27 @@
-import { CANVA_WIDTH, CANVA_HEIGHT } from '../Config.js'
+import { setPausedgame, CANVA_WIDTH, CANVA_HEIGHT } from '../Config.js'
 import { activeControls } from "../Game.js";
-export class MainMenuScene extends Phaser.Scene {
-    constructor() {
-        super({ key: 'MainMenuScene' });
-        this.selectedOption = 0;
-    }
 
-    preload() {
+export class GamePausedScene extends Phaser.Scene {
+    constructor() {
+        super({ key: 'GamePausedScene' })
+        this.selectedOption = 0;
     }
 
     create() {
         activeControls(this);
-        this.cameras.main.setBackgroundColor('#FFF')
-        this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 - 50, 'Mario', { fontSize: '64px', fill: '#ff2f3f', align: 'center', fontFamily: 'Arial', fontStyle: 'bold', stroke: '#000', strokeThickness: 6 }).setOrigin(0.5, 0.5);
-        this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 10, 'Ciclo de Krebs', { fontSize: '64px', fill: '#c472e0', align: 'center', fontFamily: 'Arial', fontStyle: 'bold', stroke: '#000', strokeThickness: 6 }).setOrigin(0.5, 0.5);
+        this.selectedOption = 0;
+
+        this.add.rectangle(400, 300, 800, 600, 0x000000, 0.5);
+        this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2, 'JOGO PAUSADO', { fontSize: '56px', fill: '#c472e0', align: 'center', fontFamily: 'Arial', fontStyle: 'bold', stroke: '#000', strokeThickness: 6 }).setOrigin(0.5, 0.5);
 
         this.options = [
-            this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 100, 'Começar', {
+            this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 50, 'Retomar', {
                 fontSize: '32px',
                 color: '#ffffff',
                 fontFamily: 'Arial',
                 fontStyle: 'bold'
             }).setOrigin(0.5, 0.5),
-            this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 150, 'Como Jogar?', {
+            this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 100, 'Sair', {
                 fontSize: '32px',
                 color: '#ffffff',
                 fontFamily: 'Arial',
@@ -38,6 +37,12 @@ export class MainMenuScene extends Phaser.Scene {
         this.input.keyboard.on('keydown-W', this.moveUp, this);
         this.input.keyboard.on('keydown-S', this.moveDown, this);
         this.input.keyboard.on('keydown-SPACE', this.selectOption, this);
+        this.input.keyboard.on('keydown-ESC', () => {
+            this.selectedOption = 0;
+            this.selectOption()
+        }, this);
+
+
     }
 
     moveUp() {
@@ -64,9 +69,14 @@ export class MainMenuScene extends Phaser.Scene {
 
     selectOption() {
         if (this.selectedOption === 0) {
-            this.scene.start('Level');
+            setPausedgame(false);
+            this.scene.stop();
+            this.scene.resume('Level');
         } else if (this.selectedOption === 1) {
-            this.game.destroy(true);
+
+            this.scene.stop('Level');
+            this.scene.stop();
+            this.scene.start('MainMenuScene');
         }
     }
-}
+} 

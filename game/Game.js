@@ -1,7 +1,8 @@
 import { GameOverScene } from './scenes/GameOverScene.js';
 import { MainMenuScene } from './scenes/MainMenuScene.js';
 import { Level } from './scenes/Level.js';
-import { BLOCK_SIZE, CANVA_WIDTH, CANVA_HEIGHT, SPIKE_HEIGHT, SPIKE_WIDTH, WORLD_WIDTH, PLAYER_SIZE, GRAVITY, JUMP_HEIGHT, ENEMY_RIGHT, ENEMY_LEFT } from './Config.js'
+import { GamePausedScene } from './scenes/GamePausedScene.js';
+import { CONTROL_BUTTONS, CANVA_WIDTH, CANVA_HEIGHT, GRAVITY } from './Config.js'
 
 
 const CONFIG = {
@@ -21,7 +22,72 @@ const CONFIG = {
         width: CANVA_WIDTH,
         height: CANVA_HEIGHT,
     },
-    scene: [MainMenuScene, Level, GameOverScene]
+    scene: [MainMenuScene, Level, GameOverScene, GamePausedScene]
 };
 
 const GAME = new Phaser.Game(CONFIG);
+
+let keys;
+
+export function activeControls(scene) {
+    keys = scene.input.keyboard.addKeys({
+        'left': Phaser.Input.Keyboard.KeyCodes.A,
+        'right': Phaser.Input.Keyboard.KeyCodes.D,
+        'up': Phaser.Input.Keyboard.KeyCodes.W,
+        'down': Phaser.Input.Keyboard.KeyCodes.S,
+        'space': Phaser.Input.Keyboard.KeyCodes.SPACE,
+        'esc': Phaser.Input.Keyboard.KeyCodes.ESC,
+    });
+
+    for (let [direction, btn] of Object.entries(CONTROL_BUTTONS)) {
+        switch (scene) {
+            case 'MainMenuScene':
+                if (direction == 'b')
+                    direction = 'space'
+                break;
+            case 'Level':
+                if (direction == 'b' || direction == 'a')
+                    direction = 'up'
+                break;
+            case 'GamePausedScene':
+                if (direction == 'b')
+                    direction = 'space'
+                if (direction == 'a')
+                    direction = 'esc'
+                break;
+            case 'GameOverScene':
+                if (direction == 'b')
+                    direction = 'space'
+                break;
+
+            default:
+                break;
+        }
+
+        if (direction == 'b') {
+            direction = 'space';
+        }
+        if (direction == 'a') {
+            direction = 'esc';
+        }
+        addControlListeners(btn, direction);
+    }
+
+    function addControlListeners(btn, direction) {
+        let handleStart = () => {
+            window.dispatchEvent(new KeyboardEvent('keydown', { keyCode: keys[direction].keyCode }));
+        };
+
+        let handleEnd = () => {
+            window.dispatchEvent(new KeyboardEvent('keyup', { keyCode: keys[direction].keyCode }));
+        };
+
+        btn.addEventListener('touchstart', handleStart);
+        btn.addEventListener('touchend', handleEnd);
+        btn.addEventListener('mousedown', handleStart);
+        btn.addEventListener('mouseup', handleEnd);
+
+    }
+    return scene.input.keyboard;
+}
+

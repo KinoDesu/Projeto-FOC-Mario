@@ -1,7 +1,7 @@
-import { GameOverScene } from './scenes/GameOverScene.js';
-import { MainMenuScene } from './scenes/MainMenuScene.js';
-import { Level } from './scenes/Level.js';
-import { GamePausedScene } from './scenes/GamePausedScene.js';
+import { GameOverScene } from './scene/GameOverScene.js';
+import { MainMenuScene } from './scene/MainMenuScene.js';
+import { Level } from './scene/Level.js';
+import { GamePausedScene } from './scene/GamePausedScene.js';
 import { CONTROL_BUTTONS, CANVA_WIDTH, CANVA_HEIGHT, GRAVITY } from './Config.js'
 
 

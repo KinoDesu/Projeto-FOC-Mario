@@ -80,3 +80,7 @@ Object.defineProperty(window, 'devMode', {
         return DEV_MODE;
     }
 });
+
+export function isDevMode() {
+    return window.DEV_MODE;
+}

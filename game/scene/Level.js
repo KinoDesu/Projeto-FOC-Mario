@@ -10,7 +10,8 @@ export class Level extends Phaser.Scene {
         this.platforms;
         this.spikes;
         this.enemies;
-        this.star;
+        this.stars = [];
+        this.blockingBlocks = [];
         this.isDead = false;
         this.gameSign;
         this.controlKeys;
@@ -65,7 +66,7 @@ export class Level extends Phaser.Scene {
             for (let line = 0; line < mainMap.length; line++) {
                 let block = mainMap[line][column]
 
-                switch (block) {
+                switch (block.blockCode) {
                     //céu
                     case 0:
                         break;
@@ -113,13 +114,27 @@ export class Level extends Phaser.Scene {
                             textBox: graphics
                         };
 
+                        sign.text = block.blockText;
                         this.signList.push(sign);
-                        sign.text = signTexts[this.signList.length];
 
                         break;
-                    // case 5:
-                    //     platforms.create(BLOCK_SIZE * column + (BLOCK_SIZE / 2), CANVA_HEIGHT - (BLOCK_SIZE * (16 - line) + (BLOCK_SIZE / 2)), 'platform');
-                    //     break;
+                    //blocking block
+                    case 5:
+                        let blockX = BLOCK_SIZE * column + (BLOCK_SIZE / 2);
+                        let blockY = CANVA_HEIGHT - (BLOCK_SIZE * (16 - line) + (BLOCK_SIZE / 2));
+
+                        let invisibleBlock = this.add.rectangle(blockX, blockY, BLOCK_SIZE, BLOCK_SIZE, 0x000000, 0);
+                        this.physics.add.existing(invisibleBlock);
+                        invisibleBlock.body.setImmovable(true);
+                        invisibleBlock.body.allowGravity = false;
+
+                        let blockItem = {
+                            gameObj: invisibleBlock,
+                            dataObj: block
+                        }
+
+                        this.blockingBlocks.push(blockItem);
+                        break;
                     case 6:
                         this.spikes.create(BLOCK_SIZE * column + (BLOCK_SIZE / 2), CANVA_HEIGHT - (BLOCK_SIZE * (16 - line) + (BLOCK_SIZE / 2)) + SPIKE_HEIGHT / 2, 'spike');
                         break;
@@ -133,7 +148,16 @@ export class Level extends Phaser.Scene {
                         break;
                     //moeda
                     case 8:
-                        this.star.create(BLOCK_SIZE * column + (BLOCK_SIZE / 2), CANVA_HEIGHT - (BLOCK_SIZE * (16 - line) + (BLOCK_SIZE / 2)), 'star');
+                        let star = this.physics.add.sprite(BLOCK_SIZE * column + (BLOCK_SIZE / 2), CANVA_HEIGHT - (BLOCK_SIZE * (16 - line) + (BLOCK_SIZE / 2)), 'star');
+                        star.body.setAllowGravity(false);
+
+                        let starItem = {
+                            gameObj: star,
+                            dataObj: block,
+                            isGot: false
+                        }
+
+                        this.stars.push(starItem);
                         break;
                     //mario
                     case 9:
@@ -159,8 +183,14 @@ export class Level extends Phaser.Scene {
         this.colliders.enemies = {
             ground: this.physics.add.collider(this.enemies, this.ground),
             platforms: this.physics.add.collider(this.enemies, this.platforms),
+            invisibleBlock: this.physics.add.collider(this.enemies, this.blockingBlocks),
             spike: this.physics.add.collider(this.enemies, this.spikes, this.hitSpike, null, this)
         }
+
+        this.blockingBlocks.map((blockingBlock) => {
+            this.physics.add.collider(this.player, blockingBlock.gameObj);
+            this.physics.add.collider(this.enemies, blockingBlock.gameObj);
+        });
 
         this.cameras.main.setBounds(0, 0, WORLD_WIDTH, CANVA_HEIGHT);
         this.cameras.main.startFollow(this.player);
@@ -186,6 +216,13 @@ export class Level extends Phaser.Scene {
             } else {
                 signItem.textBox.setVisible(false);
                 signItem.textObj.setVisible(false);
+            }
+        });
+
+        this.stars.map((star) => {
+            if (this.physics.overlap(this.player, star.gameObj)) {
+                star.gameObj.destroy();
+                star.isGot = true;
             }
         });
 

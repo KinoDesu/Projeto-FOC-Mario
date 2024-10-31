@@ -29,9 +29,9 @@ export class GamePausedScene extends Phaser.Scene {
             }).setOrigin(0.5, 0.5)
         ];
 
-        this.add.text(10, CANVA_HEIGHT / 2 + 190, 'W / ▲ - Mover para cima', { fontSize: '16px', fill: '#000', align: 'left', fontFamily: 'Arial', fontStyle: 'bold' }).setOrigin(0, 0.5);
-        this.add.text(10, CANVA_HEIGHT / 2 + 215, 'S / ▼ - Mover para cima', { fontSize: '16px', fill: '#000', align: 'center', fontFamily: 'Arial', fontStyle: 'bold' }).setOrigin(0, 0.5);
-        this.add.text(10, CANVA_HEIGHT / 2 + 240, 'ESPAÇO / B - Confirmar', { fontSize: '16px', fill: '#000', align: 'center', fontFamily: 'Arial', fontStyle: 'bold' }).setOrigin(0, 0.5);
+        this.add.text(10, CANVA_HEIGHT / 2 + 190, 'W / ▲ - Mover para cima', { fontSize: '16px', fill: '#fff', align: 'left', fontFamily: 'Arial', fontStyle: 'bold', stroke: '#000', strokeThickness: 6 }).setOrigin(0, 0.5);
+        this.add.text(10, CANVA_HEIGHT / 2 + 215, 'S / ▼ - Mover para cima', { fontSize: '16px', fill: '#fff', align: 'center', fontFamily: 'Arial', fontStyle: 'bold', stroke: '#000', strokeThickness: 6 }).setOrigin(0, 0.5);
+        this.add.text(10, CANVA_HEIGHT / 2 + 240, 'ESPAÇO / B - Confirmar', { fontSize: '16px', fill: '#fff', align: 'center', fontFamily: 'Arial', fontStyle: 'bold', stroke: '#000', strokeThickness: 6 }).setOrigin(0, 0.5);
         this.updateSelectedOption();
 
         this.input.keyboard.on('keydown-W', this.moveUp, this);
@@ -68,15 +68,13 @@ export class GamePausedScene extends Phaser.Scene {
     }
 
     selectOption() {
+        setPausedgame(false);
         if (this.selectedOption === 0) {
-            setPausedgame(false);
-            this.scene.stop();
             this.scene.resume('Level');
         } else if (this.selectedOption === 1) {
-
             this.scene.stop('Level');
-            this.scene.stop();
             this.scene.start('MainMenuScene');
         }
+        this.scene.stop();
     }
 } 

@@ -1,19 +1,3332 @@
-export const mainMap = [
-    [{ "blockCode": 6, "blockName": "sei n", "blockColumn": 0, "blockRow": 0, "blockText": "sei n" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 42, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 43, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 84, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 0, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 0, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 120, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 0, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 0, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 0, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 0, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 0, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 42, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 43, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 84, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 1, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 1, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 120, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 1, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 1, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 1, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 1, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 1, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 42, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 43, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 84, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 2, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 2, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 120, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 2, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 2, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 2, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 2, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 2, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 42, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 43, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 84, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 3, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 3, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 120, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 3, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 3, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 3, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 3, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 3, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 42, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 43, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 84, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 4, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 4, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 120, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 4, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 4, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 4, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 4, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 4, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 42, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 43, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 84, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 5, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 5, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 120, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 5, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 5, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 5, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 183, "blockRow": 5, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 5, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 5, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 5, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 42, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 43, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 84, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 6, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 6, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 120, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 6, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 129, "blockRow": 6, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 6, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 6, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 6, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 178, "blockRow": 6, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 6, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 180, "blockRow": 6, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 6, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 182, "blockRow": 6, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 183, "blockRow": 6, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 184, "blockRow": 6, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 6, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 6, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 6, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 42, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 43, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 84, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 7, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 7, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 120, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 7, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 127, "blockRow": 7, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 128, "blockRow": 7, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 129, "blockRow": 7, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 7, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 7, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 7, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 177, "blockRow": 7, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 178, "blockRow": 7, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 7, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 7, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 7, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 8, "blockText": "ar" }, { "blockCode": 8, "blockName": "moeda", "blockColumn": 20, "blockRow": 8, "blockText": "moeda" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 42, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 43, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 84, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 8, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 8, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 8, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 120, "blockRow": 8, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 121, "blockRow": 8, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 8, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 124, "blockRow": 8, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 8, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 8, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 8, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 173, "blockRow": 8, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 174, "blockRow": 8, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 175, "blockRow": 8, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 8, "blockText": "ar" }, { "blockCode": 8, "blockName": "moeda", "blockColumn": 194, "blockRow": 8, "blockText": "moeda" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 8, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 8, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 8, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 42, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 43, "blockRow": 9, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 44, "blockRow": 9, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 84, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 9, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 9, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 9, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 118, "blockRow": 9, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 119, "blockRow": 9, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 120, "blockRow": 9, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 121, "blockRow": 9, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 122, "blockRow": 9, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 123, "blockRow": 9, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 124, "blockRow": 9, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 125, "blockRow": 9, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 9, "blockText": "ar" }, { "blockCode": 8, "blockName": "moeda", "blockColumn": 138, "blockRow": 9, "blockText": "moeda" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 9, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 9, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 9, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 164, "blockRow": 9, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 9, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 170, "blockRow": 9, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 9, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 188, "blockRow": 9, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 9, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 9, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 9, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 10, "blockText": "ar" }, { "blockCode": 8, "blockName": "moeda", "blockColumn": 10, "blockRow": 10, "blockText": "moeda" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 10, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 14, "blockRow": 10, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 10, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 42, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 43, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 44, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 83, "blockRow": 10, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 84, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 10, "blockText": "ar" }, { "blockCode": 8, "blockName": "moeda", "blockColumn": 92, "blockRow": 10, "blockText": "moeda" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 10, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 10, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 10, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 111, "blockRow": 10, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 10, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 113, "blockRow": 10, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 114, "blockRow": 10, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 120, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 10, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 10, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 10, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 163, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 164, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 165, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 10, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 169, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 170, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 171, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 10, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 188, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 189, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 190, "blockRow": 10, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 10, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 10, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 10, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 11, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 12, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 13, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 14, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 15, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 16, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 11, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 42, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 43, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 82, "blockRow": 11, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 83, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 84, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 11, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 97, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 98, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 99, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 11, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 11, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 11, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 111, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 112, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 113, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 114, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 115, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 120, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 11, "blockText": "ar" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 143, "blockRow": 11, "blockText": "espinho" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 11, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 11, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 11, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 161, "blockRow": 11, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 11, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 11, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 11, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 12, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 36, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 37, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 38, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 12, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 42, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 43, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 81, "blockRow": 12, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 82, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 83, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 84, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 12, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 12, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 12, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 120, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 121, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 12, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 141, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 142, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 143, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 12, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 149, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 150, "blockRow": 12, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 12, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 12, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 12, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 12, "blockText": "ar" }, { "blockCode": 4, "blockName": "placa", "blockColumn": 197, "blockRow": 12, "blockText": "placa 5" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 12, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 12, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 8, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 9, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 13, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 42, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 43, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 80, "blockRow": 13, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 81, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 82, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 83, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 84, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 13, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 102, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 13, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 13, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 13, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 108, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 13, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 120, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 121, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 122, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 13, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 13, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 13, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 159, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 13, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 13, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 195, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 196, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 197, "blockRow": 13, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 13, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 13, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 2, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 4, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 6, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 14, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 8, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 9, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 18, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 23, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 31, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 34, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 14, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 42, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 43, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 52, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 54, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 68, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 76, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 79, "blockRow": 14, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 80, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 81, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 82, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 83, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 84, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 97, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 14, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 14, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 112, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 115, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 14, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 120, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 121, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 122, "blockRow": 14, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 123, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 125, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 130, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 133, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 135, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 139, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 143, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 147, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 151, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 153, "blockRow": 14, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 14, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 156, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 157, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 14, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 14, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 14, "blockText": "bloco invisível" }],
-    [{ "blockCode": 0, "blockName": "ar", "blockColumn": 0, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 1, "blockRow": 15, "blockText": "ar" }, { "blockCode": 9, "blockName": "jogador", "blockColumn": 2, "blockRow": 15, "blockText": "jogador" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 3, "blockRow": 15, "blockText": "ar" }, { "blockCode": 4, "blockName": "placa", "blockColumn": 4, "blockRow": 15, "blockText": "placa 1" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 5, "blockRow": 15, "blockText": "ar" }, { "blockCode": 4, "blockName": "placa", "blockColumn": 6, "blockRow": 15, "blockText": "placa 2" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 7, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 8, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 9, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 10, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 11, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 12, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 13, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 14, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 15, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 16, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 17, "blockRow": 15, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 18, "blockRow": 15, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 19, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 20, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 21, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 22, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 23, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 24, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 25, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 26, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 27, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 28, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 29, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 30, "blockRow": 15, "blockText": "ar" }, { "blockCode": 4, "blockName": "placa", "blockColumn": 31, "blockRow": 15, "blockText": "placa 3" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 32, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 33, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 34, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 35, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 36, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 37, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 38, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 39, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 40, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 41, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 42, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 43, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 44, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 45, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 46, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 47, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 48, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 49, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 50, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 51, "blockRow": 15, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 52, "blockRow": 15, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 53, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 54, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 55, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 56, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 57, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 58, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 59, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 60, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 61, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 62, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 63, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 64, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 65, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 66, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 67, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 68, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 69, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 70, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 71, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 72, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 73, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 74, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 75, "blockRow": 15, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 76, "blockRow": 15, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 77, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 78, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 79, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 80, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 81, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 82, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 83, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 84, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 85, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 86, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 87, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 88, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 89, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 90, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 91, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 92, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 93, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 94, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 95, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 96, "blockRow": 15, "blockText": "ar" }, { "blockCode": 4, "blockName": "placa", "blockColumn": 97, "blockRow": 15, "blockText": "placa 4" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 98, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 99, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 100, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 101, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 102, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 103, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 104, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 105, "blockRow": 15, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 106, "blockRow": 15, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 107, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 108, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 109, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 110, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 111, "blockRow": 15, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 112, "blockRow": 15, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 113, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 114, "blockRow": 15, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 115, "blockRow": 15, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 116, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 117, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 118, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 119, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 120, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 121, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 122, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 123, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 124, "blockRow": 15, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 125, "blockRow": 15, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 126, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 127, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 128, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 129, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 130, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 131, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 132, "blockRow": 15, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 133, "blockRow": 15, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 134, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 135, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 136, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 137, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 138, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 139, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 140, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 141, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 142, "blockRow": 15, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 143, "blockRow": 15, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 144, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 145, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 146, "blockRow": 15, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 147, "blockRow": 15, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 148, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 149, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 150, "blockRow": 15, "blockText": "ar" }, { "blockCode": 7, "blockName": "inimigo", "blockColumn": 151, "blockRow": 15, "blockText": "inimigo" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 152, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 153, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 154, "blockRow": 15, "blockText": "bloco invisível" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 155, "blockRow": 15, "blockText": "ar" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 156, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 2, "blockName": "plataforma", "blockColumn": 157, "blockRow": 15, "blockText": "plataforma" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 158, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 159, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 160, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 161, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 162, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 163, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 164, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 165, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 166, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 167, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 168, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 169, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 170, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 171, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 172, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 173, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 174, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 175, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 176, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 177, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 178, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 179, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 180, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 181, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 182, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 183, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 184, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 185, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 186, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 187, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 188, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 189, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 190, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 191, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 192, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 193, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 194, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 195, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 196, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 197, "blockRow": 15, "blockText": "ar" }, { "blockCode": 0, "blockName": "ar", "blockColumn": 198, "blockRow": 15, "blockText": "ar" }, { "blockCode": 5, "blockName": "bloco invisível", "blockColumn": 199, "blockRow": 15, "blockText": "bloco invisível" }],
-    [{ "blockCode": 1, "blockName": "chão", "blockColumn": 0, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 1, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 2, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 3, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 4, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 5, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 6, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 7, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 8, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 9, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 10, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 11, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 12, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 13, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 14, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 15, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 16, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 17, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 18, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 19, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 20, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 21, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 22, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 23, "blockRow": 16, "blockText": "chão" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 24, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 25, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 26, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 27, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 28, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 29, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 30, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 31, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 32, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 33, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 34, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 35, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 36, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 37, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 38, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 39, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 40, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 41, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 42, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 43, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 44, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 45, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 46, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 47, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 48, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 49, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 50, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 51, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 52, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 53, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 54, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 55, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 56, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 57, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 58, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 59, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 60, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 61, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 62, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 63, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 64, "blockRow": 16, "blockText": "chão" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 65, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 66, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 67, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 68, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 69, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 70, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 71, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 72, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 73, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 74, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 75, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 76, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 77, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 78, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 79, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 80, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 81, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 82, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 83, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 84, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 85, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 86, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 87, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 88, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 89, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 90, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 91, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 92, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 93, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 94, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 95, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 96, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 97, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 98, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 99, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 100, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 101, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 102, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 103, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 104, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 105, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 106, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 107, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 108, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 109, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 110, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 111, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 112, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 113, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 114, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 115, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 116, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 117, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 118, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 119, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 120, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 121, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 122, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 123, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 124, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 125, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 126, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 127, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 128, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 129, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 130, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 131, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 132, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 133, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 134, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 135, "blockRow": 16, "blockText": "chão" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 136, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 137, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 138, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 139, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 140, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 141, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 142, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 143, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 144, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 145, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 146, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 147, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 148, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 149, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 150, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 151, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 152, "blockRow": 16, "blockText": "chão" }, { "blockCode": 1, "blockName": "chão", "blockColumn": 153, "blockRow": 16, "blockText": "chão" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 154, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 155, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 156, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 157, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 158, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 159, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 160, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 161, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 162, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 163, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 164, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 165, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 166, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 167, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 168, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 169, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 170, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 171, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 172, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 173, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 174, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 175, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 176, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 177, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 178, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 179, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 180, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 181, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 182, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 183, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 184, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 185, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 186, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 187, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 188, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 189, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 190, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 191, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 192, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 193, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 194, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 195, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 196, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 197, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 198, "blockRow": 16, "blockText": "espinho" }, { "blockCode": 3, "blockName": "espinho", "blockColumn": 199, "blockRow": 16, "blockText": "espinho" }]
+export const BLOCKS = [
+    {
+        code: 0,
+        name: 'jogador',
+        data: [
+            {
+                code: 0,
+                x: 2,
+                y: 15,
+                text: ''
+            }
+        ]
+    },
+    {
+        code: 1,
+        name: 'chão',
+        data: [
+            {
+                code: 1,
+                x: 0,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 1,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 2,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 3,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 4,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 5,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 6,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 7,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 8,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 9,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 10,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 11,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 12,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 13,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 14,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 15,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 16,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 17,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 18,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 19,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 20,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 21,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 22,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 23,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 27,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 28,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 29,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 30,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 31,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 32,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 33,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 34,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 35,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 36,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 37,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 38,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 39,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 40,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 41,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 42,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 43,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 44,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 45,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 46,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 47,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 48,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 49,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 50,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 51,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 52,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 53,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 54,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 55,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 56,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 57,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 58,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 59,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 60,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 61,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 62,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 63,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 64,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 68,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 69,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 70,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 71,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 72,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 73,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 74,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 75,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 76,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 77,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 78,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 79,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 80,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 81,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 82,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 83,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 84,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 85,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 86,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 87,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 88,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 89,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 90,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 91,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 92,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 93,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 94,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 95,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 96,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 97,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 98,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 99,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 100,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 101,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 102,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 103,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 104,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 105,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 106,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 107,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 108,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 109,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 110,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 111,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 112,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 113,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 114,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 115,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 116,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 117,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 118,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 119,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 120,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 121,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 122,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 123,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 124,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 125,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 126,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 127,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 128,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 129,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 130,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 131,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 132,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 133,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 134,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 135,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 139,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 140,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 141,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 142,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 143,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 144,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 145,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 146,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 147,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 148,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 183,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 184,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 185,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 186,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 187,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 188,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 189,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 190,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 191,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 192,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 193,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 194,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 195,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 196,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 197,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 198,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 199,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 200,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 201,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 202,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 203,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 204,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 205,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 206,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 207,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 208,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 209,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 210,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 211,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 212,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 213,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 214,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 215,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 216,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 217,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 218,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 219,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 220,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 221,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 222,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 223,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 224,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 225,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 226,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 227,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 228,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 229,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 230,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 231,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 232,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 233,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 234,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 235,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 236,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 237,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 238,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 239,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 240,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 241,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 242,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 243,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 244,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 245,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 246,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 247,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 248,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 249,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 250,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 251,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 252,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 253,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 254,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 255,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 256,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 257,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 258,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 259,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 260,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 261,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 262,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 1,
+                x: 263,
+                y: 16,
+                text: ''
+            }
+        ]
+    },
+    {
+        code: 2,
+        name: 'plataforma',
+        data: [
+            {
+                code: 2,
+                x: 8,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 8,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 9,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 9,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 12,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 13,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 14,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 15,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 16,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 23,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 34,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 36,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 37,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 38,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 42,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 42,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 42,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 42,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 42,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 42,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 43,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 43,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 43,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 43,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 43,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 43,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 44,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 56,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 68,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 79,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 80,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 80,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 81,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 81,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 81,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 82,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 82,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 82,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 82,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 83,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 83,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 83,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 83,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 83,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 84,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 84,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 84,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 84,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 84,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 84,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 88,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 89,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 97,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 98,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 99,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 102,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 108,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 111,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 111,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 112,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 113,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 114,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 115,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 118,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 119,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 120,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 121,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 121,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 122,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 123,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 124,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 125,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 127,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 128,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 129,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 130,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 135,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 139,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 148,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 150,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 152,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 154,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 155,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 156,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 159,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 160,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 161,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 163,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 164,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 167,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 168,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 169,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 172,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 173,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 174,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 177,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 178,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 179,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 180,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 183,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 190,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 192,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 193,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 194,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 195,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 196,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 198,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 199,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 200,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 203,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 204,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 205,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 206,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 207,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 208,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 211,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 212,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 213,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 214,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 215,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 2,
+                x: 223,
+                y: 15,
+                text: ''
+            }
+        ]
+    },
+    {
+        code: 3,
+        name: 'espinho',
+        data: [
+            {
+                code: 3,
+                x: 14,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 24,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 25,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 26,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 44,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 65,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 66,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 67,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 85,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 86,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 87,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 88,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 89,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 90,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 91,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 113,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 114,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 120,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 121,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 121,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 124,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 129,
+                y: 6,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 130,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 136,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 137,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 138,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 149,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 150,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 151,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 152,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 153,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 154,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 155,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 156,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 157,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 158,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 159,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 160,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 160,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 161,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 162,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 163,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 164,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 165,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 166,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 167,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 168,
+                y: 6,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 168,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 169,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 170,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 171,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 172,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 172,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 173,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 174,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 175,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 176,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 177,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 178,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 179,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 180,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 181,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 182,
+                y: 16,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 205,
+                y: 6,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 206,
+                y: 6,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 211,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 3,
+                x: 215,
+                y: 12,
+                text: ''
+            }
+        ]
+    },
+    {
+        code: 4,
+        name: 'placa',
+        data: [
+            {
+                code: 4,
+                x: 3,
+                y: 15,
+                text: 'Bom.. Se você está aqui, é porque sabe andar'
+            },
+            {
+                code: 4,
+                x: 6,
+                y: 15,
+                text: 'E pular? Sabe?\nNo teclado W/ESPAÇO\nNo celular  ▲/B'
+            },
+            {
+                code: 4,
+                x: 9,
+                y: 13,
+                text: 'Aquele cara é bicho ruim. Melhor evitar... \nCaso queira, pode dar um pisão na cabeça dele.'
+            },
+            {
+                code: 4,
+                x: 12,
+                y: 10,
+                text: 'Acho que não preciso falar dos espinhos. Cuidado pra não virar peneira'
+            },
+            {
+                code: 4,
+                x: 28,
+                y: 15,
+                text: 'Olha só! mandou bem!\nPega lá sua recompensa!'
+            },
+            {
+                code: 4,
+                x: 37,
+                y: 11,
+                text: 'Deixei seu checkpoint salvo lá embaixo. Cuidado pra não gastar todas as vidas.'
+            },
+            {
+                code: 4,
+                x: 84,
+                y: 9,
+                text: 'Por enquanto tá fácil, né?'
+            },
+            {
+                code: 4,
+                x: 97,
+                y: 15,
+                text: 'Tá avançando legal! Agora é com você!'
+            },
+            {
+                code: 4,
+                x: 180,
+                y: 12,
+                text: 'Não sei se você notou, mas o mapa só libera a próxima parte quando você pega seu prêmio, então esteja certo de que pegou'
+            },
+            {
+                code: 4,
+                x: 213,
+                y: 12,
+                text: 'Essa aqui foi só um respiro pra dar uma relaxada : )'
+            }
+        ]
+    },
+    {
+        code: 5,
+        name: 'bloco invisível',
+        data: [
+            {
+                code: 5,
+                x: 31,
+                y: 0,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 1,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 2,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 3,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 4,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 5,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 6,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 31,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 0,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 1,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 2,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 3,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 4,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 5,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 6,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 61,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 0,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 1,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 2,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 3,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 4,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 5,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 6,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 105,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 0,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 1,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 2,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 3,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 4,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 5,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 6,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 143,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 0,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 1,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 2,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 3,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 4,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 5,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 6,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 184,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 0,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 1,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 2,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 3,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 4,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 5,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 6,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 7,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 9,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 12,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 5,
+                x: 224,
+                y: 15,
+                text: ''
+            }
+        ]
+    },
+    {
+        code: 6,
+        name: 'spawnpoint',
+        data: [
+            {
+                code: 6,
+                x: 32,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 6,
+                x: 62,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 6,
+                x: 106,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 6,
+                x: 144,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 6,
+                x: 185,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 6,
+                x: 225,
+                y: 15,
+                text: ''
+            }
+        ]
+    },
+    {
+        code: 7,
+        name: 'inimigo',
+        data: [
+            {
+                code: 7,
+                x: 14,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 37,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 40,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 46,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 52,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 72,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 76,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 113,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 115,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 125,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 128,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 133,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 194,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 200,
+                y: 8,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 201,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 208,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 212,
+                y: 15,
+                text: ''
+            },
+            {
+                code: 7,
+                x: 219,
+                y: 15,
+                text: ''
+            }
+        ]
+    },
+    {
+        code: 8,
+        name: 'moeda',
+        data: [
+            {
+                code: 8,
+                x: 29,
+                y: 14,
+                text: ''
+            },
+            {
+                code: 8,
+                x: 58,
+                y: 13,
+                text: ''
+            },
+            {
+                code: 8,
+                x: 92,
+                y: 10,
+                text: ''
+            },
+            {
+                code: 8,
+                x: 130,
+                y: 4,
+                text: ''
+            },
+            {
+                code: 8,
+                x: 178,
+                y: 11,
+                text: ''
+            },
+            {
+                code: 8,
+                x: 213,
+                y: 10,
+                text: ''
+            }
+        ]
+    }
 ]

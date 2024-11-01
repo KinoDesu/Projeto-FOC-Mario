@@ -45,26 +45,32 @@ export const CONTROL_BUTTONS = {
 export function dieAnim(scene) {
     scene.player.setTint(0xff0000);
 
-    scene.enemies.setVelocityX(0);
-    scene.enemies.setVelocityY(0);
+    scene.enemies.forEach(e => {
+        if (e.active) {
+            e.setVelocityX(0);
+        }
+    })
+
+    scene.enemies.forEach(e => {
+        if (e.active) {
+            e.setVelocityY(0);
+        }
+    })
 
     scene.player.setVelocityX(0);
+    scene.player.setVelocity(0);
+    scene.player.body.setAllowGravity(false);
+    scene.player.setCollideWorldBounds(false)
 
-    scene.player.setVelocity(0); // Para o movimento horizontal
-    scene.player.body.setAllowGravity(false); // Desativa a gravidade temporariamente para o impulso
-
-    // Impulso para cima (valor negativo eleva o jogador)
-    let upwardVelocity = -300; // Ajuste o valor para controlar o quão alto o personagem vai subir
+    let upwardVelocity = -300;
     scene.player.setVelocityY(upwardVelocity);
 
-    scene.colliders.player.ground.destroy();
-    scene.colliders.player.platforms.destroy();
-    scene.colliders.player.spike.destroy();
-    scene.colliders.player.enemy.destroy();
+    scene.colliders.get("player").forEach((collider) => {
+        collider.destroy();
+    });
 
-    // Depois de um pequeno intervalo, habilitar a gravidade para a queda
-    scene.time.delayedCall(2, () => {
-        scene.player.body.setAllowGravity(true); // Habilita a gravidade
+    scene.time.delayedCall(1.5, () => {
+        scene.player.body.setAllowGravity(true);
     }, [], this);
 }
 

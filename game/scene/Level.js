@@ -8,6 +8,8 @@ import { BlockingBlock } from "../block/BlockingBlock.js";
 import { Sign } from "../item/Sign.js";
 import { BLOCKS } from "../map/Map.js";
 import { Checkpoint } from '../item/Checkpoint.js';
+import { Enemy } from '../entity/Enemy.js';
+import { Star } from '../item/Star.js';
 export class Level extends Phaser.Scene {
     constructor() {
         super({ key: 'Level' });
@@ -58,10 +60,6 @@ export class Level extends Phaser.Scene {
         this.physics.world.setBounds(0, 0, WORLD_WIDTH, CANVA_HEIGHT);
         this.physics.world.setBoundsCollision(true, true, false, true);
 
-        this.enemies = this.physics.add.group({
-            defaultKey: 'enemy'
-        });
-
         BLOCKS.map(block => {
             block.data.map(itemData => {
                 let column = itemData.x;
@@ -102,24 +100,12 @@ export class Level extends Phaser.Scene {
                         break;
                     //inimigo
                     case 7:
-                        const enemy = this.enemies.create(x, y, 'enemy');
-                        enemy.setBounce(0.1);
-                        enemy.setCollideWorldBounds(true);
-                        enemy.setVelocityX(-100);
+                        this.enemies.push(new Enemy({ scene: this, x: x, y: y }));
 
                         break;
                     //moeda
                     case 8:
-                        let star = this.physics.add.sprite(x, y, 'star');
-                        star.body.setAllowGravity(false);
-
-                        let starItem = {
-                            gameObj: star,
-                            dataObj: block,
-                            isGot: false
-                        }
-
-                        this.stars.push(starItem);
+                        this.stars.push(new Star({ scene: this, x: x, y: y }));
                         break;
                     default:
                         break;
@@ -128,21 +114,28 @@ export class Level extends Phaser.Scene {
             });
         });
 
-        this.colliders.player = {
-            ground: this.physics.add.collider(this.player, this.grounds),
-            platforms: this.physics.add.collider(this.player, this.platforms),
-            spike: this.physics.add.collider(this.player, this.spikes, this.hitSpike, null, this),
-            enemy: this.physics.add.collider(this.player, this.enemies, this.hitEnemy, null, this),
-            blockingBlock: this.physics.add.collider(this.player, this.blockingBlocks)
-        }
+        this.colliders = new Map();
 
-        this.colliders.enemies = {
-            ground: this.physics.add.collider(this.enemies, this.grounds),
-            platforms: this.physics.add.collider(this.enemies, this.platforms),
-            invisibleBlock: this.physics.add.collider(this.enemies, this.blockingBlocks),
-            spike: this.physics.add.collider(this.enemies, this.spikes, this.hitSpike, null, this),
-            blockingBlock: this.physics.add.collider(this.enemies, this.blockingBlocks)
-        }
+        let playerColliders = new Map();
+        playerColliders.set("ground", this.physics.add.collider(this.player, this.grounds))
+        playerColliders.set("platforms", this.physics.add.collider(this.player, this.platforms))
+        playerColliders.set("spike", this.physics.add.collider(this.player, this.spikes, (player, spike) => {
+            spike.hitSpike(this);
+        }, null, this))
+        playerColliders.set("enemy", this.physics.add.collider(this.player, this.enemies, (player, enemy) => {
+            enemy.hitEnemy(this);
+        }, null, this))
+        playerColliders.set("blockingBlock", this.physics.add.collider(this.player, this.blockingBlocks))
+        this.colliders.set("player", playerColliders)
+
+        let enemyColliders = new Map();
+        enemyColliders.set("ground", this.physics.add.collider(this.enemies, this.grounds))
+        enemyColliders.set("platforms", this.physics.add.collider(this.enemies, this.platforms))
+        enemyColliders.set("invisibleBlock", this.physics.add.collider(this.enemies, this.blockingBlocks))
+        enemyColliders.set("spike", this.physics.add.collider(this.enemies, this.spikes, this.hitSpike, null, this))
+        enemyColliders.set("blockingBlock", this.physics.add.collider(this.enemies, this.blockingBlocks))
+        this.colliders.set("enemy", enemyColliders)
+
 
         this.cameras.main.setBounds(0, 0, WORLD_WIDTH, CANVA_HEIGHT);
         this.cameras.main.startFollow(this.player);
@@ -154,90 +147,5 @@ export class Level extends Phaser.Scene {
         }, this)
     }
 
-    update() {
-        this.stars.map((star) => {
-            if (this.physics.overlap(this.player, star.gameObj)) {
-                star.gameObj.destroy();
-                star.isGot = true;
-                this.removeInvisibleBlock(star);
-            }
-        });
-
-        if (this.player.isDead) {
-            return
-        }
-
-        this.player.setVelocityX(0);
-
-        if (getPausedgame()) {
-            return;
-        }
-
-        this.enemies.children.iterate(function (enemy) {
-            if (enemy.body.blocked.right) {
-                enemy.setVelocityX(ENEMY_LEFT);
-            }
-            else if (enemy.body.blocked.left) {
-                enemy.setVelocityX(ENEMY_RIGHT);
-            }
-        });
-
-        if (this.controlKeys['right'].isDown) {
-            this.player.setVelocityX(160);
-        }
-        else if (this.controlKeys['left'].isDown) {
-            this.player.setVelocityX(-160);
-        }
-
-        if ((this.controlKeys['up'].isDown || this.controlKeys['space'].isDown) && this.player.body.touching.down) {
-            this.player.setVelocityY(-Math.sqrt(2 * GRAVITY * JUMP_HEIGHT));
-        }
-    }
-
-    hitSpike() {
-        if (isDevMode()) {
-            return;
-        }
-        this.player.isDead = true;
-        dieAnim(this);
-        this.time.delayedCall(2000, () => {
-            this.player.isDead = false;
-            this.scene.start('GameOverScene', { previousScene: this.scene.key });
-        }, [], this);
-    }
-    hitEnemy(player, enemy) {
-        if (player.body.bottom < enemy.body.top + 10) {
-            enemy.destroy();
-            player.setVelocityY(-Math.sqrt(2 * GRAVITY * JUMP_HEIGHT) / 1.20);
-        } else if (!isDevMode()) {
-            this.player.isDead = true;
-            dieAnim(this);
-            this.time.delayedCall(2000, () => {
-                this.player.isDead = false;
-                this.scene.start('GameOverScene', { previousScene: this.scene.key });
-            }, [], this);
-        }
-    }
-
-    removeInvisibleBlock(star) {
-        let closestDistance = Infinity;
-        let closestBlock = null;
-
-        for (const invisibleBlock of this.blockingBlocks) {
-            const distance = Math.abs(star.gameObj.x - invisibleBlock.x);
-            if (distance < closestDistance) {
-                closestDistance = distance;
-                closestBlock = invisibleBlock;
-            }
-        }
-
-        if (closestBlock) {
-            for (const invisibleBlock of this.blockingBlocks) {
-                if (invisibleBlock.x == closestBlock.x) {
-                    invisibleBlock.destroy();
-                }
-            }
-
-        }
-    }
+    update() { }
 }

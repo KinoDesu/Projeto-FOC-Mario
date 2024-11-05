@@ -1,6 +1,6 @@
 .gameboy {
     position: relative;
-    max-height: 95vh;
+    max-height: calc(100vh - 50px);
     max-width: 90vw;
     aspect-ratio: 9/16;
     border-radius: 20px;
@@ -67,6 +67,7 @@
             width: 128px;
             height: 128px;
             z-index: 5;
+            margin-left: 8px;
 
             >* {
                 width: 32%;
@@ -78,8 +79,8 @@
             }
 
             .up {
-                top: calc(0% + 4px);
-                left: 32%;
+                top: calc(2% - 6px);
+                left: 40%;
                 border-top: 4px solid black;
                 border-left: 4px solid black;
                 border-right: 4px solid black;
@@ -91,8 +92,8 @@
             }
 
             .right {
-                top: 32%;
-                left: calc(64% - 4px);
+                top: 27%;
+                left: calc(72% - 4px);
                 border-top: 4px solid black;
                 border-bottom: 4px solid black;
                 border-right: 4px solid black;
@@ -105,8 +106,8 @@
             }
 
             .down {
-                top: calc(64% - 4px);
-                left: 32%;
+                top: calc(62% - 6px);
+                left: 40%;
                 border-left: 4px solid black;
                 border-bottom: 4px solid black;
                 border-right: 4px solid black;
@@ -119,8 +120,8 @@
             }
 
             .left {
-                top: 32%;
-                left: calc(0% + 4px);
+                top: 27%;
+                left: calc(8% + 4px);
                 border-top: 4px solid black;
                 border-bottom: 4px solid black;
                 border-left: 4px solid black;
@@ -133,8 +134,8 @@
             }
 
             .middle {
-                top: 32%;
-                left: 32%;
+                top: 27%;
+                left: 39%;
                 z-index: -5;
 
                 &::after {
@@ -171,7 +172,7 @@
         .a-b {
             position: relative;
             display: inline-block;
-            width: 144px;
+            width: 130px;
             height: 96px;
 
             .a,
@@ -261,18 +262,19 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
 body {
-    padding: 2%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     background: linear-gradient(to top, #8b8dff 0%, rgb(210, 237, 255) 100%);
 }
 
 .gameboy {
-    margin: 0 auto;
+    margin: 2% auto;
+    height: calc(100%-20%);
 }
 
 canvas {

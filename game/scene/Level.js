@@ -43,6 +43,7 @@ export class Level extends Phaser.Scene {
         this.load.image('star', 'assets/star.png');
         this.load.image('sign', 'assets/sign.png');
         this.load.image('checkpoint', 'assets/checkpoint.png');
+        this.load.image('gotCheckpoint', 'assets/checkpoint_1.png');
         this.load.image('heart', 'assets/heart.png');
         this.load.image('noheart', 'assets/noheart.png');
 
@@ -134,6 +135,7 @@ export class Level extends Phaser.Scene {
             if (this.physics.overlap(this.player, checkpoint) && !checkpoint.isGot) {
                 this.player.spawnPoint = checkpoint;
                 checkpoint.isGot = true;
+                checkpoint.setTexture("gotCheckpoint");
             }
         });
     }

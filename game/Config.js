@@ -45,17 +45,6 @@ export const CONTROL_BUTTONS = {
 export function dieAnim(scene) {
     scene.player.setTint(0xff0000);
 
-    scene.enemies.forEach(e => {
-        if (e.active) {
-            e.setVelocityX(0);
-        }
-    })
-
-    scene.enemies.forEach(e => {
-        if (e.active) {
-            e.setVelocityY(0);
-        }
-    })
 
     scene.player.setVelocityX(0);
     scene.player.setVelocity(0);

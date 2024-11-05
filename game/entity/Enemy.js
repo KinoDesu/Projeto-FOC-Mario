@@ -7,7 +7,7 @@ export class Enemy extends Phaser.Physics.Arcade.Sprite {
         config.scene.add.existing(this);
         config.scene.physics.add.existing(this, false);
         this.setCollideWorldBounds(true);
-        this.setVelocityX(-100);
+        this.setVelocityX(ENEMY_LEFT);
         this.setBounce(0.1);
         config.scene.events.on('update', () => {
             if (!this.active) {
@@ -15,15 +15,17 @@ export class Enemy extends Phaser.Physics.Arcade.Sprite {
             }
             this.walk();
         });
+
     }
 
     walk() {
-        if (this.body.blocked.right) {
+        if (this.body.touching.right) {
             this.setVelocityX(ENEMY_LEFT);
         }
-        else if (this.body.blocked.left) {
+        else if (this.body.touching.left) {
             this.setVelocityX(ENEMY_RIGHT);
         }
+
     }
 
     hitEnemy(scene) {
@@ -33,8 +35,18 @@ export class Enemy extends Phaser.Physics.Arcade.Sprite {
         } else if (!isDevMode()) {
             scene.player.isDead = true;
             dieAnim(scene);
+            scene.player.lifes -= 1;
             scene.time.delayedCall(2000, () => {
-                scene.scene.start('GameOverScene', { previousScene: scene.scene.key });
+                if (scene.player.lifes > 0) {
+                    scene.setColliders();
+                    scene.backToSpawnPoint();
+                    scene.player.isDead = false;
+                    scene.player.clearTint();
+                    scene.hearts[scene.player.lifes].setTexture('noheart');
+                    scene.hearts[scene.player.lifes].setAlpha(0.5);
+                } else {
+                    scene.scene.start('GameOverScene', { previousScene: scene.scene.key });
+                }
             }, [], scene);
         }
     }

@@ -15,6 +15,7 @@ export class Level extends Phaser.Scene {
         super({ key: 'Level' });
         this.controlKeys;
         this.player;
+        this.hearts = [];
         this.grounds = [];
         this.platforms = [];
         this.spikes = [];
@@ -42,6 +43,8 @@ export class Level extends Phaser.Scene {
         this.load.image('star', 'assets/star.png');
         this.load.image('sign', 'assets/sign.png');
         this.load.image('checkpoint', 'assets/checkpoint.png');
+        this.load.image('heart', 'assets/heart.png');
+        this.load.image('noheart', 'assets/noheart.png');
 
     }
 
@@ -69,51 +72,80 @@ export class Level extends Phaser.Scene {
                 let y = CANVA_HEIGHT - (BLOCK_SIZE * (16 - line) + (BLOCK_SIZE / 2));
 
                 switch (itemData.code) {
-
-                    //player
-                    case 0:
-                        this.player = new Player({ scene: this, x: x, y: y - BLOCK_SIZE });
-                        break;
                     //chão
-                    case 1:
+                    case 0:
                         this.grounds.push(new Ground({ scene: this, x: x, y: y }));
                         break;
                     //platarforma
-                    case 2:
+                    case 1:
                         this.platforms.push(new Platform({ scene: this, x: x, y: y }));
                         break;
                     //espinho
-                    case 3:
+                    case 2:
                         this.spikes.push(new Spike({ scene: this, x: x, y: y + SPIKE_HEIGHT / 2 }));
                         break;
                     //placa
-                    case 4:
+                    case 3:
                         this.signList.push(new Sign({ scene: this, x: x, y: y }, itemData));
                         break;
                     //blocking block
-                    case 5:
+                    case 4:
                         this.blockingBlocks.push(new BlockingBlock({ scene: this, x: x, y: y }));
                         break;
                     //checkpoint
-                    case 6:
+                    case 5:
                         this.checkpoints.push(new Checkpoint({ scene: this, x: x, y: y }));
                         break;
                     //inimigo
-                    case 7:
+                    case 6:
                         this.enemies.push(new Enemy({ scene: this, x: x, y: y }));
-
                         break;
                     //moeda
-                    case 8:
+                    case 7:
                         this.stars.push(new Star({ scene: this, x: x, y: y }));
                         break;
                     default:
                         break;
                 }
-
             });
         });
 
+        this.player = new Player({ scene: this, x: 0, y: 0 - BLOCK_SIZE });
+        this.player.spawnPoint = this.checkpoints[0];
+        this.backToSpawnPoint();
+
+        this.setColliders();
+
+        for (let i = 0; i < this.player.lifes; i++) {
+            let heart = this.add.image(20 + i * ((BLOCK_SIZE / 2) + 12), 40, 'heart');
+            heart.setScrollFactor(0);
+            this.hearts.push(heart);
+        }
+
+        this.input.keyboard.on('keydown-ESC', () => {
+            setPausedgame(true);
+            this.scene.launch('GamePausedScene', { fromScene: 'Level' });
+            this.scene.pause();
+        }, this)
+    }
+
+    update() {
+        this.checkpoints.forEach(checkpoint => {
+            if (this.physics.overlap(this.player, checkpoint) && !checkpoint.isGot) {
+                this.player.spawnPoint = checkpoint;
+                checkpoint.isGot = true;
+            }
+        });
+    }
+
+    backToSpawnPoint() {
+        let xPos = this.player.spawnPoint.x;
+        let yPos = this.player.spawnPoint.y - BLOCK_SIZE;
+        this.player.x = xPos;
+        this.player.y = yPos;
+    }
+
+    setColliders() {
         this.colliders = new Map();
 
         let playerColliders = new Map();
@@ -139,13 +171,5 @@ export class Level extends Phaser.Scene {
 
         this.cameras.main.setBounds(0, 0, WORLD_WIDTH, CANVA_HEIGHT);
         this.cameras.main.startFollow(this.player);
-
-        this.input.keyboard.on('keydown-ESC', () => {
-            setPausedgame(true);
-            this.scene.launch('GamePausedScene', { fromScene: 'Level' });
-            this.scene.pause();
-        }, this)
     }
-
-    update() { }
 }

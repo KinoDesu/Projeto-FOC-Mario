@@ -13,8 +13,18 @@ export class Spike extends Phaser.Physics.Arcade.Sprite {
         }
         scene.player.isDead = true;
         dieAnim(scene);
+        scene.player.lifes -= 1;
         scene.time.delayedCall(2000, () => {
-            scene.scene.start('GameOverScene', { previousScene: scene.scene.key });
+            if (scene.player.lifes > 0) {
+
+                scene.setColliders();
+                scene.backToSpawnPoint();
+                scene.player.isDead = false;
+                scene.player.clearTint();
+                scene.hearts[scene.player.lifes].setTexture('noheart');
+            } else {
+                scene.scene.start('GameOverScene', { previousScene: scene.scene.key });
+            }
         }, [], scene);
     }
 }

@@ -9,6 +9,8 @@ export class Player extends Phaser.Physics.Arcade.Sprite {
         this.setCollideWorldBounds(true);
         this.setDepth(1);
         this.isDead = false;
+        this.spawnPoint;
+        this.lifes = 5;
 
         config.scene.events.on('update', () => {
 

@@ -27,10 +27,12 @@ export class Player extends Phaser.Physics.Arcade.Sprite {
             else if (config.scene.controlKeys['left'].isDown) {
                 this.setVelocityX(-160);
             }
-           
+
             if ((config.scene.controlKeys['up'].isDown || config.scene.controlKeys['space'].isDown) && this.canJump) {
-                this.canJump = false;
-                this.setVelocityY(-Math.sqrt(2 * GRAVITY * JUMP_HEIGHT));
+                if (this.body.touching.down & (!config.scene.physics.overlap(this, config.scene.friendStar))) {
+                    this.canJump = false;
+                    this.setVelocityY(-Math.sqrt(2 * GRAVITY * JUMP_HEIGHT));
+                }
             }
             if (config.scene.friendStar) {
                 let smooth = 0.015;

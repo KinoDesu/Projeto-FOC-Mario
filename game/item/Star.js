@@ -21,6 +21,10 @@ export class Star extends Phaser.Physics.Arcade.Sprite {
     getStar(scene) {
         if (scene.physics.overlap(scene.player, this)) {
             if (!this.isGot) {
+                if (scene.friendStar) {
+                    scene.friendStar.destroy();
+                    scene.friendStar.name.destroy();
+                }
                 scene.friendStar = this;
                 this.isGot = true;
                 this.removeInvisibleBlock(scene);

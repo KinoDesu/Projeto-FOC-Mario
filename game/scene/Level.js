@@ -10,6 +10,7 @@ import { BLOCKS } from "../map/Map.js";
 import { Checkpoint } from '../item/Checkpoint.js';
 import { Enemy } from '../entity/Enemy.js';
 import { Star } from '../item/Star.js';
+import { EventPoint } from '../block/EventPoint.js';
 export class Level extends Phaser.Scene {
     constructor() {
         super({ key: 'Level' });
@@ -29,6 +30,7 @@ export class Level extends Phaser.Scene {
             enemies: {}
         }
         this.friendStar;
+        this.eventPoints = [];
     }
 
 
@@ -109,7 +111,7 @@ export class Level extends Phaser.Scene {
                         break;
                     //eventPoint
                     case 8:
-                        this.stars.push(new Star({ scene: this, x: x, y: y, name: itemData.text }));
+                        this.eventPoints.push(new EventPoint({ scene: this, x: x, y: y, name: itemData.eventId }));
                         break;
                     //porta
                     case 9:

@@ -6,17 +6,26 @@ export class Star extends Phaser.Physics.Arcade.Sprite {
         this.body.setAllowGravity(false);
         this.isGot = false;
 
+        this.name = config.scene.add.text(this.x, this.y - this.height / 2 - 10, config.name, {
+            fontSize: '20px',
+            fill: '#ffffff',
+            fontFamily: 'Arial'
+        }).setOrigin(0.5);
+
         config.scene.events.on('update', () => {
             this.getStar(config.scene);
+            this.name.setPosition(this.x, this.y - this.height / 2 - 10);
         });
     }
 
     getStar(scene) {
         if (scene.physics.overlap(scene.player, this)) {
+            if (!this.isGot) {
+                scene.friendStar = this;
+                this.isGot = true;
+                this.removeInvisibleBlock(scene);
+            }
 
-            this.destroy();
-            this.isGot = true;
-            this.removeInvisibleBlock(scene);
         }
     }
 

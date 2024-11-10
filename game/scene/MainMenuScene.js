@@ -22,12 +22,12 @@ export class MainMenuScene extends Phaser.Scene {
                 fontFamily: 'Arial',
                 fontStyle: 'bold'
             }).setOrigin(0.5, 0.5),
-            this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 150, 'Como Jogar?', {
-                fontSize: '32px',
-                color: '#ffffff',
-                fontFamily: 'Arial',
-                fontStyle: 'bold'
-            }).setOrigin(0.5, 0.5)
+            // this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 150, 'Quem somos nós?', {
+            //     fontSize: '32px',
+            //     color: '#ffffff',
+            //     fontFamily: 'Arial',
+            //     fontStyle: 'bold'
+            // }).setOrigin(0.5, 0.5)
         ];
 
         this.add.text(10, CANVA_HEIGHT / 2 + 190, 'W / ▲ - Mover para cima', { fontSize: '16px', fill: '#000', align: 'left', fontFamily: 'Arial', fontStyle: 'bold' }).setOrigin(0, 0.5);
@@ -65,8 +65,10 @@ export class MainMenuScene extends Phaser.Scene {
     selectOption() {
         if (this.selectedOption === 0) {
             this.scene.start('Level');
+            this.scene.stop()
         } else if (this.selectedOption === 1) {
-            this.game.destroy(true);
+            this.scene.start('MemberScene');
+            this.scene.stop()
         }
     }
 }

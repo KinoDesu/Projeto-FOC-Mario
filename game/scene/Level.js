@@ -28,6 +28,7 @@ export class Level extends Phaser.Scene {
             player: {},
             enemies: {}
         }
+        this.friendStar;
     }
 
 
@@ -46,7 +47,8 @@ export class Level extends Phaser.Scene {
         this.load.image('gotCheckpoint', 'assets/checkpoint_1.png');
         this.load.image('heart', 'assets/heart.png');
         this.load.image('noheart', 'assets/noheart.png');
-
+        this.load.image('porta', 'assets/porta.png');
+        this.load.image('noheart', 'assets/porta3.png');
     }
 
     create() {
@@ -101,9 +103,17 @@ export class Level extends Phaser.Scene {
                     case 6:
                         this.enemies.push(new Enemy({ scene: this, x: x, y: y }));
                         break;
-                    //moeda
+                    //estrela
                     case 7:
-                        this.stars.push(new Star({ scene: this, x: x, y: y }));
+                        this.stars.push(new Star({ scene: this, x: x, y: y, name: itemData.text }));
+                        break;
+                    //eventPoint
+                    case 8:
+                        this.stars.push(new Star({ scene: this, x: x, y: y, name: itemData.text }));
+                        break;
+                    //porta
+                    case 9:
+                        this.stars.push(new Star({ scene: this, x: x, y: y, name: itemData.text }));
                         break;
                     default:
                         break;
@@ -151,8 +161,8 @@ export class Level extends Phaser.Scene {
         this.colliders = new Map();
 
         let playerColliders = new Map();
-        playerColliders.set("ground", this.physics.add.collider(this.player, this.grounds))
-        playerColliders.set("platforms", this.physics.add.collider(this.player, this.platforms))
+        playerColliders.set("ground", this.physics.add.collider(this.player, this.grounds, () => this.player.canJump = true, null, this))
+        playerColliders.set("platforms", this.physics.add.collider(this.player, this.platforms, () => this.player.canJump = true, null, this))
         playerColliders.set("spike", this.physics.add.collider(this.player, this.spikes, (player, spike) => {
             spike.hitSpike(this);
         }, null, this))

@@ -1,5 +1,6 @@
 import { GameOverScene } from './scene/GameOverScene.js';
 import { MainMenuScene } from './scene/MainMenuScene.js';
+import { MembersListScene } from './scene/MembersListScene.js';
 import { Level } from './scene/Level.js';
 import { GamePausedScene } from './scene/GamePausedScene.js';
 import { CONTROL_BUTTONS, CANVA_WIDTH, CANVA_HEIGHT, GRAVITY } from './Config.js'
@@ -22,7 +23,7 @@ const CONFIG = {
         width: CANVA_WIDTH,
         height: CANVA_HEIGHT,
     },
-    scene: [MainMenuScene, Level, GameOverScene, GamePausedScene]
+    scene: [MainMenuScene, Level, GameOverScene, GamePausedScene, MembersListScene]
 };
 
 const GAME = new Phaser.Game(CONFIG);
@@ -44,6 +45,8 @@ export function activeControls(scene) {
             case 'MainMenuScene':
                 if (direction == 'b')
                     direction = 'space'
+                if (direction == 'a')
+                    direction = 'esc'
                 break;
             case 'Level':
                 if (direction == 'b' || direction == 'a')

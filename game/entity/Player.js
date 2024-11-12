@@ -15,7 +15,8 @@ export class Player extends Phaser.Physics.Arcade.Sprite {
 
         config.scene.events.on('update', () => {
 
-            if (this.isDead || getPausedgame() || !this.active) {
+            if (this.isDead || getPausedgame() || !this.active || config.scene.animationEvent) {
+
                 return
             }
 
@@ -29,15 +30,18 @@ export class Player extends Phaser.Physics.Arcade.Sprite {
             }
 
             if ((config.scene.controlKeys['up'].isDown || config.scene.controlKeys['space'].isDown) && this.canJump) {
-                if (this.body.touching.down & (!config.scene.physics.overlap(this, config.scene.friendStar))) {
+                if (this.body.touching.down & (!config.scene.physics.overlap(this, config.scene.friendStars))) {
                     this.canJump = false;
                     this.setVelocityY(-Math.sqrt(2 * GRAVITY * JUMP_HEIGHT));
                 }
             }
-            if (config.scene.friendStar) {
-                let smooth = 0.015;
-                config.scene.friendStar.x += ((this.x - this.width) - config.scene.friendStar.x) * smooth;
-                config.scene.friendStar.y += (this.y - config.scene.friendStar.y) * smooth;
+
+            if (config.scene.friendStars.length > 0) {
+                config.scene.friendStars.forEach((friendStar, index) => {
+                    let smooth = 0.015 / (index + 1);
+                    friendStar.x += ((this.x - this.width - index * (BLOCK_SIZE + 10)) - friendStar.x) * smooth;
+                    friendStar.y += (this.y - friendStar.y - index) * smooth;
+                });
             }
         });
     }

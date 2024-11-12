@@ -41,26 +41,27 @@ export const CONTROL_BUTTONS = {
 
 export function dieAnim(scene) {
     scene.player.setTint(0xff0000);
-    
-    
+
+
     scene.player.setVelocityX(0);
     scene.player.setVelocity(0);
     scene.player.body.setAllowGravity(false);
     scene.player.setCollideWorldBounds(false)
-    
+
     let upwardVelocity = -300;
     scene.player.setVelocityY(upwardVelocity);
-    
+
     scene.colliders.get("player").forEach((collider) => {
         collider.destroy();
     });
-    
+
     scene.time.delayedCall(1.5, () => {
         scene.player.body.setAllowGravity(true);
     }, [], this);
 }
 
 export var DEV_MODE = false;
+window.DEV_MODE = DEV_MODE;
 
 export function toggleDevMode() {
     DEV_MODE = !DEV_MODE;

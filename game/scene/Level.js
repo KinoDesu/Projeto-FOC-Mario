@@ -1,4 +1,4 @@
-import { getPausedgame, setPausedgame, BLOCK_SIZE, CANVA_HEIGHT, CANVA_WIDTH, SPIKE_HEIGHT, WORLD_WIDTH, GRAVITY, JUMP_HEIGHT, ENEMY_RIGHT, ENEMY_LEFT, dieAnim, isDevMode } from '../Config.js'
+import { setPausedgame, BLOCK_SIZE, CANVA_HEIGHT, SPIKE_HEIGHT, WORLD_WIDTH } from '../Config.js'
 import { activeControls } from "../Game.js";
 import { Player } from "../entity/Player.js";
 import { Ground } from "../block/Ground.js";
@@ -29,8 +29,9 @@ export class Level extends Phaser.Scene {
             player: {},
             enemies: {}
         }
-        this.friendStar;
+        this.friendStars = [];
         this.eventPoints = [];
+        this.animationEvent = false;
     }
 
 
@@ -111,7 +112,7 @@ export class Level extends Phaser.Scene {
                         break;
                     //eventPoint
                     case 8:
-                        this.eventPoints.push(new EventPoint({ scene: this, x: x, y: y, name: itemData.eventId }));
+                        this.eventPoints.push(new EventPoint({ scene: this, x: x, y: y, eventCode: itemData.eventId }));
                         break;
                     //porta
                     case 9:

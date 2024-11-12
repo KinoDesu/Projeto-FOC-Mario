@@ -9,8 +9,9 @@ export class Enemy extends Phaser.Physics.Arcade.Sprite {
         this.setCollideWorldBounds(true);
         this.setVelocityX(ENEMY_LEFT);
         this.setBounce(0.1);
+        this.lastVelocity;
         config.scene.events.on('update', () => {
-            if (!this.active) {
+            if (!this.active || config.scene.animationEvent) {
                 return;
             }
             this.walk();
@@ -25,7 +26,6 @@ export class Enemy extends Phaser.Physics.Arcade.Sprite {
         else if (this.body.touching.left) {
             this.setVelocityX(ENEMY_RIGHT);
         }
-
     }
 
     hitEnemy(scene) {

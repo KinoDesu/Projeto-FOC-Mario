@@ -4,6 +4,9 @@ import { LoseH2OTurnsToCisAconitato } from "./LoseH2OTurnsToCisAconitato.js"
 import { FindH2O } from "./FindH2O.js"
 import { TurnsToIsocitrato } from "./TurnsToIsocitrato.js"
 import { FreeCO2AndTurnsToAlfaCetoglutarato } from "./FreeCO2AndTurnsToAlfaCetoglutarato.js"
+import { FreeNADH } from "./FreeNADH.js"
+import { FreeCO2AndTurnsToSuccinilCoa } from "./FreeCO2AndTurnsToSuccinilCoa.js"
+import { LoseCoaAndTurnsToSuccinato } from "./LoseCoaAndTurnsToSuccinato.js"
 
 function removeInvisibleBlock(scene, gotEventPoint) {
     let closestDistance = Infinity;
@@ -42,9 +45,9 @@ export const animations = [
     new FindH2O(),
     new TurnsToIsocitrato(),
     new FreeCO2AndTurnsToAlfaCetoglutarato(),
-    //new FreeNADH(),
-    //new FreeCO2AndTurnsToSuccinilCoa(),
-    //new LoseCoaAndTurnsToSuccinato(),
+    new FreeNADH(),
+    new FreeCO2AndTurnsToSuccinilCoa(),
+    new LoseCoaAndTurnsToSuccinato(),
     //new FADAppearsAndTurnsToFADH2(),
     //new SuccinatoTurnsToFumarato(),
     //new LoseOHWinHAndTurnsToMalato(),

@@ -63,7 +63,7 @@ export class LoseOHWinHAndTurnsToMalato {
     }
 
     loseOH() {
-        const oh = new Star({ x: this.fumarato.x, y: this.fumarato.y, scene: this.scene, name: "OH" });
+        const oh = new Star({ x: this.fumarato.x, y: this.fumarato.y, scene: this.scene, name: "OH-" });
         oh.setScale(0.5);
         oh.isGot = true;
 

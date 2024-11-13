@@ -164,8 +164,8 @@ export class Level extends Phaser.Scene {
         this.colliders = new Map();
 
         let playerColliders = new Map();
-        playerColliders.set("ground", this.physics.add.collider(this.player, this.grounds, () => this.player.canJump = true, null, this))
-        playerColliders.set("platforms", this.physics.add.collider(this.player, this.platforms, () => this.player.canJump = true, null, this))
+        playerColliders.set("ground", this.physics.add.collider(this.player, this.grounds, () => this.player.touchingFloor = true, null, this))
+        playerColliders.set("platforms", this.physics.add.collider(this.player, this.platforms, () => this.player.touchingFloor = true, null, this))
         playerColliders.set("spike", this.physics.add.collider(this.player, this.spikes, (player, spike) => {
             spike.hitSpike(this);
         }, null, this))

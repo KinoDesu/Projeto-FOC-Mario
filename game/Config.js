@@ -60,7 +60,7 @@ export function dieAnim(scene) {
     }, [], this);
 }
 
-export var DEV_MODE = false;
+export var DEV_MODE = true;
 window.DEV_MODE = DEV_MODE;
 
 export function toggleDevMode() {

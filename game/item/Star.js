@@ -22,8 +22,6 @@ export class Star extends Phaser.Physics.Arcade.Sprite {
         if (scene.physics.overlap(scene.player, this)) {
             if (!this.isGot) {
                 scene.friendStars.push(this);
-                console.table(scene.friendStars);
-
                 this.isGot = true;
             }
 

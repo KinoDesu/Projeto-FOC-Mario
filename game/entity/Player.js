@@ -11,7 +11,7 @@ export class Player extends Phaser.Physics.Arcade.Sprite {
         this.isDead = false;
         this.spawnPoint;
         this.lifes = 5;
-        this.canJump = false;
+        this.touchingFloor = false;
 
         config.scene.events.on('update', () => {
 
@@ -29,9 +29,9 @@ export class Player extends Phaser.Physics.Arcade.Sprite {
                 this.setVelocityX(-160);
             }
 
-            if ((config.scene.controlKeys['up'].isDown || config.scene.controlKeys['space'].isDown) && this.canJump) {
+            if ((config.scene.controlKeys['up'].isDown || config.scene.controlKeys['space'].isDown) && this.touchingFloor) {
                 if (this.body.touching.down & (!config.scene.physics.overlap(this, config.scene.friendStars))) {
-                    this.canJump = false;
+                    this.touchingFloor = false;
                     this.setVelocityY(-Math.sqrt(2 * GRAVITY * JUMP_HEIGHT));
                 }
             }

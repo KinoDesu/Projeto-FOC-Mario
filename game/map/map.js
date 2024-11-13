@@ -1985,6 +1985,30 @@ export const BLOCKS = [
     data: [
       {
         code: 1,
+        x: 357,
+        y: 5,
+        text: ''
+      },
+      {
+        code: 1,
+        x: 359,
+        y: 5,
+        text: ''
+      },
+      {
+        code: 1,
+        x: 361,
+        y: 5,
+        text: ''
+      },
+      {
+        code: 1,
+        x: 363,
+        y: 5,
+        text: ''
+      },
+      {
+        code: 1,
         x: 127,
         y: 7,
         text: ''
@@ -2075,19 +2099,19 @@ export const BLOCKS = [
       },
       {
         code: 1,
-        x: 358,
+        x: 353,
         y: 7,
         text: ''
       },
       {
         code: 1,
-        x: 359,
+        x: 354,
         y: 7,
         text: ''
       },
       {
         code: 1,
-        x: 360,
+        x: 355,
         y: 7,
         text: ''
       },
@@ -2292,30 +2316,6 @@ export const BLOCKS = [
       {
         code: 1,
         x: 352,
-        y: 9,
-        text: ''
-      },
-      {
-        code: 1,
-        x: 353,
-        y: 9,
-        text: ''
-      },
-      {
-        code: 1,
-        x: 354,
-        y: 9,
-        text: ''
-      },
-      {
-        code: 1,
-        x: 355,
-        y: 9,
-        text: ''
-      },
-      {
-        code: 1,
-        x: 356,
         y: 9,
         text: ''
       },
@@ -3143,6 +3143,12 @@ export const BLOCKS = [
       },
       {
         code: 1,
+        x: 345,
+        y: 14,
+        text: ''
+      },
+      {
+        code: 1,
         x: 8,
         y: 15,
         text: ''
@@ -3377,13 +3383,13 @@ export const BLOCKS = [
       },
       {
         code: 1,
-        x: 342,
+        x: 345,
         y: 15,
         text: ''
       },
       {
         code: 1,
-        x: 352,
+        x: 350,
         y: 15,
         text: ''
       },
@@ -3449,12 +3455,6 @@ export const BLOCKS = [
       },
       {
         code: 2,
-        x: 360,
-        y: 6,
-        text: ''
-      },
-      {
-        code: 2,
         x: 399,
         y: 6,
         text: ''
@@ -3504,12 +3504,6 @@ export const BLOCKS = [
       {
         code: 2,
         x: 352,
-        y: 8,
-        text: ''
-      },
-      {
-        code: 2,
-        x: 355,
         y: 8,
         text: ''
       },
@@ -3581,6 +3575,12 @@ export const BLOCKS = [
       },
       {
         code: 2,
+        x: 343,
+        y: 10,
+        text: ''
+      },
+      {
+        code: 2,
         x: 344,
         y: 10,
         text: ''
@@ -3629,7 +3629,7 @@ export const BLOCKS = [
       },
       {
         code: 2,
-        x: 352,
+        x: 350,
         y: 14,
         text: ''
       },
@@ -5459,18 +5459,6 @@ export const BLOCKS = [
       },
       {
         code: 6,
-        x: 40,
-        y: 15,
-        text: ''
-      },
-      {
-        code: 6,
-        x: 46,
-        y: 15,
-        text: ''
-      },
-      {
-        code: 6,
         x: 52,
         y: 15,
         text: ''
@@ -5478,12 +5466,6 @@ export const BLOCKS = [
       {
         code: 6,
         x: 72,
-        y: 15,
-        text: ''
-      },
-      {
-        code: 6,
-        x: 76,
         y: 15,
         text: ''
       },
@@ -5526,12 +5508,6 @@ export const BLOCKS = [
       {
         code: 6,
         x: 201,
-        y: 15,
-        text: ''
-      },
-      {
-        code: 6,
-        x: 208,
         y: 15,
         text: ''
       },
@@ -5615,13 +5591,13 @@ export const BLOCKS = [
       },
       {
         code: 6,
-        x: 344,
+        x: 348,
         y: 15,
         text: ''
       },
       {
         code: 6,
-        x: 346,
+        x: 353,
         y: 15,
         text: ''
       },
@@ -5653,7 +5629,7 @@ export const BLOCKS = [
         code: 7,
         x: 130,
         y: 4,
-        text: 'H2O'
+        text: 'H₂O'
       },
       {
         code: 7,
@@ -5716,55 +5692,76 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 0,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 0,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 0,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 0,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 0,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 0,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 0,
         text: '',
         eventId: 11
       },
       {
         code: 8,
+        x: 338,
+        y: 0,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 0,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 0,
+        text: '',
+        eventId: 14
+      },
+      {
+        code: 8,
         x: 30,
         y: 1,
         text: '',
@@ -5800,55 +5797,76 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 1,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 1,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 1,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 1,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 1,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 1,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 1,
         text: '',
         eventId: 11
       },
       {
         code: 8,
+        x: 338,
+        y: 1,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 1,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 1,
+        text: '',
+        eventId: 14
+      },
+      {
+        code: 8,
         x: 30,
         y: 2,
         text: '',
@@ -5884,55 +5902,76 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 2,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 2,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 2,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 2,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 2,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 2,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 2,
         text: '',
         eventId: 11
       },
       {
         code: 8,
+        x: 338,
+        y: 2,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 2,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 2,
+        text: '',
+        eventId: 14
+      },
+      {
+        code: 8,
         x: 30,
         y: 3,
         text: '',
@@ -5968,55 +6007,76 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 3,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 3,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 3,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 3,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 3,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 3,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 3,
         text: '',
         eventId: 11
       },
       {
         code: 8,
+        x: 338,
+        y: 3,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 3,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 3,
+        text: '',
+        eventId: 14
+      },
+      {
+        code: 8,
         x: 30,
         y: 4,
         text: '',
@@ -6052,52 +6112,73 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 4,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 4,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 4,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 4,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 4,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 4,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 4,
         text: '',
         eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 4,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 4,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 4,
+        text: '',
+        eventId: 14
       },
       {
         code: 8,
@@ -6136,52 +6217,73 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 5,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 5,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 5,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 5,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 5,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 5,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 5,
         text: '',
         eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 5,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 5,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 5,
+        text: '',
+        eventId: 14
       },
       {
         code: 8,
@@ -6220,52 +6322,73 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 6,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 6,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 6,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 6,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 6,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 6,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 6,
         text: '',
         eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 6,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 6,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 6,
+        text: '',
+        eventId: 14
       },
       {
         code: 8,
@@ -6304,52 +6427,73 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 7,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 7,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 7,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 7,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 7,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 7,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 7,
         text: '',
         eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 7,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 7,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 7,
+        text: '',
+        eventId: 14
       },
       {
         code: 8,
@@ -6388,52 +6532,73 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 8,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 8,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 8,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 8,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 8,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 8,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 8,
         text: '',
         eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 8,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 8,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 8,
+        text: '',
+        eventId: 14
       },
       {
         code: 8,
@@ -6472,52 +6637,73 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 9,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 9,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 9,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 9,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 9,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 9,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 9,
         text: '',
         eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 9,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 9,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 9,
+        text: '',
+        eventId: 14
       },
       {
         code: 8,
@@ -6556,52 +6742,73 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 10,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 10,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 10,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 10,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 10,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 10,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 10,
         text: '',
         eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 10,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 10,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 10,
+        text: '',
+        eventId: 14
       },
       {
         code: 8,
@@ -6633,52 +6840,73 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 11,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 11,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 11,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 11,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 11,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 11,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 11,
         text: '',
         eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 11,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 11,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 11,
+        text: '',
+        eventId: 14
       },
       {
         code: 8,
@@ -6717,52 +6945,73 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 182,
+        x: 145,
         y: 12,
         text: '',
         eventId: 5
       },
       {
         code: 8,
-        x: 223,
+        x: 182,
         y: 12,
         text: '',
         eventId: 6
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 12,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 12,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 12,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 12,
         text: '',
         eventId: 10
       },
       {
         code: 8,
-        x: 413,
+        x: 334,
         y: 12,
         text: '',
         eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 12,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 12,
+        text: '',
+        eventId: 13
+      },
+      {
+        code: 8,
+        x: 413,
+        y: 12,
+        text: '',
+        eventId: 14
       },
       {
         code: 8,
@@ -6801,38 +7050,59 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 223,
+        x: 145,
         y: 13,
         text: '',
-        eventId: 6
+        eventId: 5
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 13,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 13,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 13,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 13,
         text: '',
         eventId: 10
+      },
+      {
+        code: 8,
+        x: 334,
+        y: 13,
+        text: '',
+        eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 13,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 13,
+        text: '',
+        eventId: 13
       },
       {
         code: 8,
@@ -6871,38 +7141,59 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 223,
+        x: 145,
         y: 14,
         text: '',
-        eventId: 6
+        eventId: 5
       },
       {
         code: 8,
-        x: 251,
+        x: 223,
         y: 14,
         text: '',
         eventId: 7
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 14,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 14,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 14,
         text: '',
         eventId: 10
+      },
+      {
+        code: 8,
+        x: 334,
+        y: 14,
+        text: '',
+        eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 14,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 14,
+        text: '',
+        eventId: 13
       },
       {
         code: 8,
@@ -6934,31 +7225,52 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 251,
+        x: 145,
         y: 15,
         text: '',
-        eventId: 7
+        eventId: 5
       },
       {
         code: 8,
-        x: 287,
+        x: 251,
         y: 15,
         text: '',
         eventId: 8
       },
       {
         code: 8,
-        x: 334,
+        x: 256,
         y: 15,
         text: '',
         eventId: 9
       },
       {
         code: 8,
-        x: 338,
+        x: 287,
         y: 15,
         text: '',
         eventId: 10
+      },
+      {
+        code: 8,
+        x: 334,
+        y: 15,
+        text: '',
+        eventId: 11
+      },
+      {
+        code: 8,
+        x: 338,
+        y: 15,
+        text: '',
+        eventId: 12
+      },
+      {
+        code: 8,
+        x: 373,
+        y: 15,
+        text: '',
+        eventId: 13
       }
     ]
   },

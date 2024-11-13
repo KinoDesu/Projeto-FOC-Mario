@@ -1,9 +1,10 @@
 import { BLOCK_SIZE, CANVA_HEIGHT, CANVA_WIDTH } from "../game/Config.js";
-import { completeAnimation } from "./AnimationHub.js";
+import { endAnimation, startAnimation } from "./AnimationHub.js";
 import { Star } from "../game/item/Star.js";
 
 export class AcetilAndOxalatoToCitrato {
     constructor() {
+        this.acetilCoa;
         this.acetil;
         this.oxalato;
         this.playerX;
@@ -12,33 +13,31 @@ export class AcetilAndOxalatoToCitrato {
         this.crossingPoint2Y;
         this.finalPointY;
         this.xPos1;
+        this.scene
     }
     animate(scene, gotEventPoint) {
+
+        this.scene = scene;
 
         if (scene.friendStars.length <= 1) {
             return;
         }
-        completeAnimation(scene, gotEventPoint);
-
-        scene.enemies.forEach((e) => {
-            if (e.active) {
-                e.lastVelocity = e.body.velocity.x;
-                e.setVelocityX(0);
-            }
+        startAnimation(scene, gotEventPoint).then(() => {
+            this.begin();
         });
-        scene.animationEvent = true;
-        scene.player.setVelocityX(0);
-        scene.player.setVelocity(0);
 
-        this.playerX = scene.player.x;
-        this.playerY = scene.player.y;
+    }
 
-        this.crossingPoint1Y = scene.player.y - scene.player.height * 1;
-        this.crossingPoint2Y = scene.player.y - scene.player.height * 2;
-        this.finalPointY = this.playerY - (3 * scene.player.height);
+    begin() {
+        this.playerX = this.scene.player.x;
+        this.playerY = this.scene.player.y;
+
+        this.crossingPoint1Y = this.scene.player.y - this.scene.player.height * 1;
+        this.crossingPoint2Y = this.scene.player.y - this.scene.player.height * 2;
+        this.finalPointY = this.playerY - (3 * this.scene.player.height);
         this.xPos1 = BLOCK_SIZE + 16;
 
-        scene.friendStars.forEach((star) => {
+        this.scene.friendStars.forEach((star) => {
             if (star.active) {
                 star.destroy();
                 star.name.destroy();
@@ -46,49 +45,50 @@ export class AcetilAndOxalatoToCitrato {
         })
 
 
-        const acetilCoa = new Star({ x: scene.friendStars[0].x, y: scene.friendStars[0].y, scene: scene, name: "acetil-CoA" });
-        acetilCoa.isGot = true;
+        this.acetilCoa = new Star({ x: this.scene.friendStars[0].x, y: this.scene.friendStars[0].y, scene: this.scene, name: "acetil-CoA" });
+        this.acetilCoa.isGot = true;
 
-        this.oxalato = new Star({ x: scene.friendStars[1].x, y: scene.friendStars[1].y, scene: scene, name: "oxalato" });
+        this.oxalato = new Star({ x: this.scene.friendStars[1].x, y: this.scene.friendStars[1].y, scene: this.scene, name: "oxalato" });
         this.oxalato.isGot = true;
 
-        this.acetilCoaAndOxalatoGetsDistance({ acetilCoa: acetilCoa, oxalato: this.oxalato, scene: scene });
+        this.acetilCoaAndOxalatoGetsDistance();
     }
 
-    acetilCoaAndOxalatoGetsDistance(objects) {
-        objects.scene.tweens.add({
-            targets: objects.acetilCoa,
+    acetilCoaAndOxalatoGetsDistance() {
+        this.scene.tweens.add({
+            targets: this.acetilCoa,
             x: this.playerX + this.xPos1,
             y: this.playerY,
             duration: 500,
             ease: 'Sine.easeOut',
         });
 
-        objects.scene.tweens.add({
-            targets: objects.oxalato,
+        this.scene.tweens.add({
+            targets: this.oxalato,
             x: this.playerX - this.xPos1,
             y: this.playerY,
             duration: 500,
             ease: 'Sine.easeOut',
             onComplete: () => {
-                this.acetilCoaDivide(objects);
+                this.acetilCoaDivide();
             }
         });
     }
 
-    acetilCoaDivide(objects) {
-        objects.scene.cameras.main.setZoom(1.5);
+    acetilCoaDivide() {
 
-        objects.scene.tweens.add({
-            targets: objects.acetilCoa,
+        this.scene.cameras.main.zoomTo(2, 1000);
+
+        this.scene.tweens.add({
+            targets: this.acetilCoa,
             x: this.playerX,
-            y: this.playerY - (2 * objects.scene.player.height),
+            y: this.playerY - (2 * this.scene.player.height),
             duration: 500,
             ease: 'Sine.easeOut',
             onComplete: () => {
-                const glow = objects.scene.add.circle(objects.acetilCoa.x, objects.acetilCoa.y, 20, 0xfffffffff).setAlpha(0);
+                const glow = this.scene.add.circle(this.acetilCoa.x, this.acetilCoa.y, 20, 0xfffffffff).setAlpha(0);
 
-                objects.scene.tweens.add({
+                this.scene.tweens.add({
                     targets: glow,
                     alpha: 0.8,
                     scale: 100,
@@ -96,37 +96,38 @@ export class AcetilAndOxalatoToCitrato {
                     yoyo: true,
                     onComplete: () => {
 
-                        this.acetil = new Star({ x: objects.acetilCoa.x - BLOCK_SIZE, y: objects.acetilCoa.y, scene: objects.scene, name: "acetil" });
+                        this.acetil = new Star({ x: this.acetilCoa.x - BLOCK_SIZE, y: this.acetilCoa.y, scene: this.scene, name: "acetil" });
                         this.acetil.isGot = true;
 
-                        const coa = new Star({ x: objects.acetilCoa.x + BLOCK_SIZE, y: objects.acetilCoa.y, scene: objects.scene, name: "CoA" });
+                        const coa = new Star({ x: this.acetilCoa.x + BLOCK_SIZE, y: this.acetilCoa.y, scene: this.scene, name: "CoA" });
+                        coa.setScale(0.5);
                         coa.isGot = true;
-                        objects.acetilCoa.destroy();
-                        objects.acetilCoa.name.destroy();
+                        this.acetilCoa.destroy();
+                        this.acetilCoa.name.destroy();
                         glow.destroy();
 
-                        objects.scene.tweens.add({
+                        this.scene.tweens.add({
                             targets: coa,
                             x: this.playerX,
-                            y: this.playerY - (2.5 * objects.scene.player.height),
+                            y: this.playerY - (2.5 * this.scene.player.height),
                             duration: 2000,
                             ease: 'Sine.easeOut',
                             onComplete: () => {
-                                objects.scene.tweens.add({
+                                this.scene.tweens.add({
                                     targets: coa,
                                     x: this.playerX + CANVA_WIDTH,
                                     y: -CANVA_HEIGHT,
                                     duration: 2500,
                                     ease: 'Sine.easeOut',
                                     onComplete: () => {
-                                        objects.scene.tweens.add({
+                                        this.scene.tweens.add({
                                             targets: this.acetil,
                                             x: this.playerX + this.xPos1,
                                             y: this.playerY,
                                             duration: 1500,
                                             ease: 'Sine.easeOut',
                                             onComplete: () => {
-                                                this.event1({ object1: this.acetil, object2: this.oxalato, scene: objects.scene })
+                                                this.event1();
                                             }
                                         });
                                     }
@@ -139,101 +140,100 @@ export class AcetilAndOxalatoToCitrato {
         });
     }
 
-    event1(objects) {
-        objects.scene.tweens.add({
-            targets: objects.object1,
+    event1() {
+        this.scene.tweens.add({
+            targets: this.acetil,
             x: this.playerX + this.xPos1,
             y: this.crossingPoint1Y,
             duration: 1000,
             ease: 'Sine.easeOut',
         });
 
-        objects.scene.tweens.add({
-            targets: objects.object2,
+        this.scene.tweens.add({
+            targets: this.oxalato,
             x: this.playerX - this.xPos1,
             y: this.crossingPoint1Y,
             duration: 1000,
             ease: 'Sine.easeOut',
             onComplete: () => {
-                this.event2(objects);
+                this.event2();
             }
         });
 
     }
 
-    event2(objects) {
-        objects.scene.tweens.add({
-            targets: objects.object1,
+    event2() {
+        this.scene.tweens.add({
+            targets: this.acetil,
             x: this.playerX - this.xPos1,
             y: this.crossingPoint2Y,
             duration: 1000,
             ease: 'Sine.easeOut'
         });
 
-        objects.scene.tweens.add({
-            targets: objects.object2,
+        this.scene.tweens.add({
+            targets: this.oxalato,
             x: this.playerX + this.xPos1,
             y: this.crossingPoint2Y,
             duration: 1000,
             ease: 'Sine.easeOut',
             onComplete: () => {
-                this.event3(objects);
+                this.event3();
             }
         });
     }
 
-    event3(objects) {
+    event3() {
 
-        objects.scene.tweens.add({
-            targets: objects.object1,
+        this.scene.tweens.add({
+            targets: this.acetil,
             x: this.playerX,
             y: this.finalPointY,
             duration: 1000,
             ease: 'Sine.easeOut'
         });
 
-        objects.scene.tweens.add({
-            targets: objects.object2,
+        this.scene.tweens.add({
+            targets: this.oxalato,
             x: this.playerX,
             y: this.finalPointY,
             duration: 1000,
             ease: 'Sine.easeOut',
             onComplete: () => {
-                this.createCitrato(objects);
+                this.createCitrato();
             }
         });
     }
 
-    createCitrato(objects) {
-        const glow = objects.scene.add.circle(objects.object1.x, objects.object1.y, 20, 0xfffffffff).setAlpha(0);
+    createCitrato() {
+        const glow = this.scene.add.circle(this.acetil.x, this.acetil.y, 20, 0xfffffffff).setAlpha(0);
 
-        objects.scene.tweens.add({
+        this.scene.tweens.add({
             targets: glow,
             alpha: 0.8,
             scale: 100,
             duration: 200,
             yoyo: true,
             onComplete: () => {
-                objects.scene.cameras.main.setZoom(1);
+                this.scene.cameras.main.zoomTo(1, 1000);
 
-                objects.object1.destroy();
-                objects.object1.name.destroy();
-                objects.object2.destroy();
-                objects.object2.name.destroy();
+                this.acetil.destroy();
+                this.acetil.name.destroy();
+                this.oxalato.destroy();
+                this.oxalato.name.destroy();
 
-                objects.scene.friendStars = [];
-                const citrato = new Star({ x: this.playerX, y: this.finalPointY, scene: objects.scene, name: "Citrato" });
+                this.scene.friendStars = [];
+                const citrato = new Star({ x: this.playerX, y: this.finalPointY, scene: this.scene, name: "Citrato" });
                 citrato.isGot = true;
-                objects.scene.friendStars.push(citrato);
+                this.scene.friendStars.push(citrato);
 
-                objects.scene.animationEvent = false;
-                objects.scene.enemies.forEach((e) => {
-                    if (e.active) {
-                        e.setVelocityX(e.lastVelocity);
-                    }
-                });
+                this.end();
             }
         });
+    }
+
+    end() {
+        endAnimation(this.scene);
     }
 
 }

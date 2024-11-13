@@ -1,4 +1,4 @@
-import { completeAnimation } from "./AnimationHub.js";
+import { endAnimation, startAnimation } from "./AnimationHub.js";
 
 export class GetAcetilCoa {
     constructor() {
@@ -11,6 +11,8 @@ export class GetAcetilCoa {
             return;
         }
 
-        completeAnimation(scene, gotEventPoint);
+        startAnimation(scene, gotEventPoint).then(() => {
+            endAnimation(scene);
+        });
     }
 }

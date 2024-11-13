@@ -7,7 +7,7 @@
     <title>Jogo Mario - Phaser</title>
     <script src="//cdn.jsdelivr.net/npm/phaser@3.80.0/dist/phaser.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="MainScene.js" defer></script>
+    <script type="module" src="./game/Game.js" defer></script>
 </head>
 
 <body>
@@ -17,25 +17,14 @@
 
             <div id="gameContainer"></div>
 
-            <div class="label">
-                <div class="title">GAME BOY</div>
-                <div class="subtitle">
-                    <span class="c">C</span><!--
-           --><span class="o1">O</span><!--
-           --><span class="l">L</span><!--
-           --><span class="o2">O</span><!--
-           --><span class="r">R</span>
-                </div>
-            </div>
-
         </div>
 
         <div class="controls">
             <div class="dpad">
-                <div class="up"><i class="fa fa-caret-up"></i></div>
-                <div class="right"><i class="fa fa-caret-right"></i></div>
-                <div class="down"><i class="fa fa-caret-down"></i></div>
-                <div class="left"><i class="fa fa-caret-left"></i></div>
+                <div class="up"></div>
+                <div class="right"></div>
+                <div class="down"></div>
+                <div class="left"></div>
                 <div class="middle"></div>
             </div>
             <div class="a-b">
@@ -49,84 +38,7 @@
             <div class="start">START</div>
         </div>
 
-        <div class="speaker">
-            <div class="dot placeholder"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot placeholder"></div>
-
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-
-            <div class="dot placeholder"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot closed"></div>
-            <div class="dot open"></div>
-            <div class="dot placeholder"></div>
-        </div>
-
     </div>
-
-
-
 </body>
 
 </html>

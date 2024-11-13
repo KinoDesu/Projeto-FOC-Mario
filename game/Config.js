@@ -4,6 +4,8 @@ export const CANVA_WIDTH = BLOCK_SIZE * 16;
 export const CANVA_HEIGHT = BLOCK_SIZE * 16;
 export const SPIKE_HEIGHT = 16;
 export const SPIKE_WIDTH = BLOCK_SIZE;
+export const DOOR_HEIGHT = 54;
+export const DOOR_WIDTH = 54;
 
 export const WORLD_WIDTH = BLOCK_SIZE * 1000;
 //#endregion
@@ -60,7 +62,7 @@ export function dieAnim(scene) {
     }, [], this);
 }
 
-export var DEV_MODE = true;
+export var DEV_MODE = false;
 window.DEV_MODE = DEV_MODE;
 
 export function toggleDevMode() {

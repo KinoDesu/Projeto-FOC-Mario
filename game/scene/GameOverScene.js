@@ -1,5 +1,7 @@
 import { CANVA_WIDTH, CANVA_HEIGHT } from '../Config.js'
 import { activeControls } from "../Game.js";
+import { Level } from './Level.js';
+import { MainMenuScene } from './MainMenuScene.js';
 export class GameOverScene extends Phaser.Scene {
     constructor() {
         super({ key: 'GameOverScene' });
@@ -67,9 +69,17 @@ export class GameOverScene extends Phaser.Scene {
 
     selectOption() {
         if (this.selectedOption === 0) {
-            this.scene.start(this.previousScene);
+            this.scene.remove('MainMenuScene');
+            this.scene.remove('Level');
+            this.scene.add('Level', Level);
+            this.scene.start('Level');
+            this.scene.remove('GameOverScene');
         } else if (this.selectedOption === 1) {
+            this.scene.remove('Level');
+            this.scene.remove('MainMenuScene');
+            this.scene.add('MainMenuScene', MainMenuScene);
             this.scene.start('MainMenuScene');
+            this.scene.remove('GameOverScene');
         }
     }
 }

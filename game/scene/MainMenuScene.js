@@ -1,5 +1,6 @@
 import { CANVA_WIDTH, CANVA_HEIGHT } from '../Config.js'
 import { activeControls } from "../Game.js";
+import { Level } from './Level.js';
 export class MainMenuScene extends Phaser.Scene {
     constructor() {
         super({ key: 'MainMenuScene' });
@@ -21,17 +22,9 @@ export class MainMenuScene extends Phaser.Scene {
                 color: '#ffffff',
                 fontFamily: 'Arial',
                 fontStyle: 'bold'
-            }).setOrigin(0.5, 0.5),
-            // this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 150, 'Quem somos nós?', {
-            //     fontSize: '32px',
-            //     color: '#ffffff',
-            //     fontFamily: 'Arial',
-            //     fontStyle: 'bold'
-            // }).setOrigin(0.5, 0.5)
+            }).setOrigin(0.5, 0.5)
         ];
 
-        // this.add.text(10, CANVA_HEIGHT / 2 + 190, 'W / ▲ - Mover para cima', { fontSize: '16px', fill: '#000', align: 'left', fontFamily: 'Arial', fontStyle: 'bold' }).setOrigin(0, 0.5);
-        // this.add.text(10, CANVA_HEIGHT / 2 + 215, 'S / ▼ - Mover para cima', { fontSize: '16px', fill: '#000', align: 'center', fontFamily: 'Arial', fontStyle: 'bold' }).setOrigin(0, 0.5);
         this.add.text(10, CANVA_HEIGHT / 2 + 240, 'ESPAÇO / B - Confirmar', { fontSize: '16px', fill: '#000', align: 'center', fontFamily: 'Arial', fontStyle: 'bold' }).setOrigin(0, 0.5);
         this.updateSelectedOption();
 
@@ -64,11 +57,12 @@ export class MainMenuScene extends Phaser.Scene {
 
     selectOption() {
         if (this.selectedOption === 0) {
+            this.scene.add('Level', Level);
             this.scene.start('Level');
-            this.scene.stop()
+            this.scene.remove('MainMenuScene');
         } else if (this.selectedOption === 1) {
             this.scene.start('MemberScene');
-            this.scene.stop()
+            this.scene.remove('MainMenuScene');
         }
     }
 }

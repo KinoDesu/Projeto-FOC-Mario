@@ -6,6 +6,7 @@ export class LoseCoaAndTurnsToSuccinato {
     constructor() {
         this.scene;
         this.succinilCoa;
+        this.succinil;
         this.finalXPosition;
         this.finalYPosition;
     }
@@ -42,26 +43,79 @@ export class LoseCoaAndTurnsToSuccinato {
             duration: 500,
             ease: 'Sine.easeOut',
             onComplete: () => {
-                const co2 = new Star({ x: this.succinilCoa.x, y: this.succinilCoa.y, scene: this.scene, name: "CO₂" });
-                co2.setScale(0.5);
-                co2.isGot = true;
+                const glow = this.scene.add.circle(this.succinilCoa.x, this.succinilCoa.y, 20, 0xfffffffff).setAlpha(0);
 
                 this.scene.tweens.add({
-                    targets: co2,
-                    x: this.succinilCoa.x - BLOCK_SIZE,
-                    y: this.succinilCoa.y - BLOCK_SIZE,
+                    targets: glow,
+                    alpha: 0.8,
+                    scale: 100,
+                    duration: 200,
+                    yoyo: true,
+                    onComplete: () => {
+
+                        this.succinil = new Star({ x: this.succinilCoa.x - BLOCK_SIZE, y: this.succinilCoa.y, scene: this.scene, name: "Succinil" });
+                        this.succinil.isGot = true;
+
+                        const coa = new Star({ x: this.succinilCoa.x + BLOCK_SIZE, y: this.succinilCoa.y, scene: this.scene, name: "CoA" });
+                        coa.setScale(0.5);
+                        coa.isGot = true;
+                        this.succinilCoa.destroy();
+                        this.succinilCoa.name.destroy();
+                        glow.destroy();
+
+                        this.scene.tweens.add({
+                            targets: coa,
+                            x: this.scene.player.x,
+                            y: this.scene.player.y - (2.5 * this.scene.player.height),
+                            duration: 2000,
+                            ease: 'Sine.easeOut',
+                            onComplete: () => {
+                                this.scene.tweens.add({
+                                    targets: coa,
+                                    x: this.scene.player.x + CANVA_WIDTH,
+                                    y: -CANVA_HEIGHT,
+                                    duration: 2500,
+                                    ease: 'Sine.easeOut',
+                                    onComplete: () => {
+                                        this.succinilGenerateGtp();
+                                    }
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+        });
+    }
+
+    succinilGenerateGtp() {
+        this.scene.tweens.add({
+            targets: this.succinil,
+            x: this.scene.player.x,
+            y: this.finalYPosition,
+            duration: 500,
+            ease: 'Sine.easeOut',
+            onComplete: () => {
+                this.gtp = new Star({ x: this.succinil.x, y: this.succinil.y, scene: this.scene, name: "GTP" });
+                this.gtp.setScale(0.5);
+                this.gtp.isGot = true;
+
+                this.scene.tweens.add({
+                    targets: this.gtp,
+                    x: this.succinil.x - BLOCK_SIZE,
+                    y: this.succinil.y - BLOCK_SIZE,
                     duration: 1000,
                     ease: 'Sine.easeOut',
                     onComplete: () => {
                         setTimeout(() => {
                             this.scene.tweens.add({
-                                targets: co2,
+                                targets: this.gtp,
                                 x: this.scene.player.x + CANVA_WIDTH,
                                 y: -CANVA_HEIGHT,
                                 duration: 1500,
                                 ease: 'Sine.easeOut',
                                 onComplete: () => {
-                                    this.succinilCoaGenerateNadh();
+                                    this.turnsToSuccinato();
                                 }
                             });
                         }, 500)
@@ -72,35 +126,8 @@ export class LoseCoaAndTurnsToSuccinato {
         });
     }
 
-    succinilCoaGenerateNadh() {
-        this.scene.tweens.add({
-            targets: this.succinilCoa,
-            x: this.scene.player.x,
-            y: this.finalYPosition,
-            duration: 500,
-            ease: 'Sine.easeOut',
-            onComplete: () => {
-                this.gtp = new Star({ x: this.succinilCoa.x, y: this.succinilCoa.y, scene: this.scene, name: "GTP" });
-                this.gtp.setScale(0.5);
-                this.gtp.isGot = true;
-
-                this.scene.tweens.add({
-                    targets: this.gtp,
-                    x: this.succinilCoa.x - BLOCK_SIZE,
-                    y: this.succinilCoa.y - BLOCK_SIZE,
-                    duration: 1000,
-                    ease: 'Sine.easeOut',
-                    onComplete: () => {
-                        this.turnsToSuccinato();
-                    }
-                });
-
-            }
-        });
-    }
-
     turnsToSuccinato() {
-        const glow = this.scene.add.circle(this.succinilCoa.x, this.succinilCoa.y, 20, 0xfffffffff).setAlpha(0);
+        const glow = this.scene.add.circle(this.succinil.x, this.succinil.y, 20, 0xfffffffff).setAlpha(0);
 
         this.scene.tweens.add({
             targets: glow,
@@ -111,14 +138,13 @@ export class LoseCoaAndTurnsToSuccinato {
             onComplete: () => {
                 this.scene.cameras.main.zoomTo(1, 1000);
 
-                this.succinilCoa.destroy();
-                this.succinilCoa.name.destroy();
+                this.succinil.destroy();
+                this.succinil.name.destroy();
 
                 this.scene.friendStars = [];
                 const succinato = new Star({ x: this.finalXPosition, y: this.finalYPosition, scene: this.scene, name: "Succinato" });
                 succinato.isGot = true;
                 this.scene.friendStars.push(succinato);
-                this.scene.friendStars.push(this.gtp);
 
                 this.end();
             }

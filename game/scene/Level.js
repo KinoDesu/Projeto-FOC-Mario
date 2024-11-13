@@ -1,4 +1,4 @@
-import { setPausedgame, BLOCK_SIZE, CANVA_HEIGHT, SPIKE_HEIGHT, WORLD_WIDTH } from '../Config.js'
+import { setPausedgame, BLOCK_SIZE, CANVA_HEIGHT, SPIKE_HEIGHT, WORLD_WIDTH, DOOR_HEIGHT } from '../Config.js'
 import { activeControls } from "../Game.js";
 import { Player } from "../entity/Player.js";
 import { Ground } from "../block/Ground.js";
@@ -10,7 +10,9 @@ import { BLOCKS } from "../map/Map.js";
 import { Checkpoint } from '../item/Checkpoint.js';
 import { Enemy } from '../entity/Enemy.js';
 import { Star } from '../item/Star.js';
+import { Door } from '../item/Door.js';
 import { EventPoint } from '../block/EventPoint.js';
+import { GamePausedScene } from './GamePausedScene.js';
 export class Level extends Phaser.Scene {
     constructor() {
         super({ key: 'Level' });
@@ -25,6 +27,7 @@ export class Level extends Phaser.Scene {
         this.blockingBlocks = [];
         this.checkpoints = [];
         this.signList = [];
+        this.door;
         this.colliders = {
             player: {},
             enemies: {}
@@ -37,13 +40,34 @@ export class Level extends Phaser.Scene {
 
 
     preload() {
+
+        this.controlKeys;
+        this.player;
+        this.hearts = [];
+        this.grounds = [];
+        this.platforms = [];
+        this.spikes = [];
+        this.enemies = [];
+        this.stars = [];
+        this.blockingBlocks = [];
+        this.checkpoints = [];
+        this.signList = [];
+        this.door;
+        this.colliders = {
+            player: {},
+            enemies: {}
+        }
+        this.friendStars = [];
+        this.eventPoints = [];
+        this.animationEvent = false;
+
         this.cameras.main.setBackgroundColor('#bce5f9')
 
         this.load.image('player', 'assets/player.png');
         this.load.image('ground', 'assets/ground.png');
         this.load.image('platform', 'assets/platform.png');
         this.load.image('spike', 'assets/spike.png');
-        this.load.image('enemy', 'assets/player.png');
+        this.load.image('enemy', 'assets/enemy.png');
         this.load.image('star', 'assets/star.png');
         this.load.image('sign', 'assets/sign.png');
         this.load.image('checkpoint', 'assets/checkpoint.png');
@@ -51,7 +75,7 @@ export class Level extends Phaser.Scene {
         this.load.image('heart', 'assets/heart.png');
         this.load.image('noheart', 'assets/noheart.png');
         this.load.image('porta', 'assets/porta.png');
-        this.load.image('noheart', 'assets/porta3.png');
+        this.load.image('portaAberta', 'assets/porta3.png');
     }
 
     create() {
@@ -116,7 +140,7 @@ export class Level extends Phaser.Scene {
                         break;
                     //porta
                     case 9:
-                        this.stars.push(new Star({ scene: this, x: x, y: y, name: itemData.text }));
+                        this.door = new Door({ scene: this, x: x, y: y - (DOOR_HEIGHT / 2) + 15 });
                         break;
                     default:
                         break;
@@ -126,6 +150,7 @@ export class Level extends Phaser.Scene {
 
         this.player = new Player({ scene: this, x: 0, y: 0 - BLOCK_SIZE });
         this.player.spawnPoint = this.checkpoints[0];
+
         this.backToSpawnPoint();
 
         this.setColliders();
@@ -138,6 +163,8 @@ export class Level extends Phaser.Scene {
 
         this.input.keyboard.on('keydown-ESC', () => {
             setPausedgame(true);
+            this.scene.add('GamePausedScene', GamePausedScene);
+
             this.scene.launch('GamePausedScene', { fromScene: 'Level' });
             this.scene.pause();
         }, this)

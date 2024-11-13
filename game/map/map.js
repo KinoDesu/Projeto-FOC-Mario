@@ -1970,12 +1970,6 @@ export const BLOCKS = [
         x: 379,
         y: 16,
         text: ''
-      },
-      {
-        code: 0,
-        x: 415,
-        y: 16,
-        text: ''
       }
     ]
   },
@@ -2454,24 +2448,6 @@ export const BLOCKS = [
       {
         code: 1,
         x: 392,
-        y: 10,
-        text: ''
-      },
-      {
-        code: 1,
-        x: 403,
-        y: 10,
-        text: ''
-      },
-      {
-        code: 1,
-        x: 404,
-        y: 10,
-        text: ''
-      },
-      {
-        code: 1,
-        x: 405,
         y: 10,
         text: ''
       },
@@ -3000,6 +2976,36 @@ export const BLOCKS = [
       {
         code: 1,
         x: 381,
+        y: 13,
+        text: ''
+      },
+      {
+        code: 1,
+        x: 403,
+        y: 13,
+        text: ''
+      },
+      {
+        code: 1,
+        x: 404,
+        y: 13,
+        text: ''
+      },
+      {
+        code: 1,
+        x: 405,
+        y: 13,
+        text: ''
+      },
+      {
+        code: 1,
+        x: 406,
+        y: 13,
+        text: ''
+      },
+      {
+        code: 1,
+        x: 407,
         y: 13,
         text: ''
       },
@@ -3534,12 +3540,6 @@ export const BLOCKS = [
       {
         code: 2,
         x: 391,
-        y: 9,
-        text: ''
-      },
-      {
-        code: 2,
-        x: 403,
         y: 9,
         text: ''
       },
@@ -4244,6 +4244,12 @@ export const BLOCKS = [
         x: 414,
         y: 16,
         text: ''
+      },
+      {
+        code: 2,
+        x: 415,
+        y: 16,
+        text: ''
       }
     ]
   },
@@ -4267,17 +4273,11 @@ export const BLOCKS = [
         code: 3,
         x: 37,
         y: 11,
-        text: 'Aqui é a mitocôndria, táokay?'
+        text: 'Aqui é a mitocôndria, gg?'
       },
       {
         code: 3,
-        x: 180,
-        y: 12,
-        text: 'Libere CO2 para passar'
-      },
-      {
-        code: 3,
-        x: 411,
+        x: 405,
         y: 12,
         text: 'Porta para Fosforilação oxidativa'
       },
@@ -5441,12 +5441,6 @@ export const BLOCKS = [
     data: [
       {
         code: 6,
-        x: 200,
-        y: 8,
-        text: ''
-      },
-      {
-        code: 6,
         x: 14,
         y: 15,
         text: ''
@@ -5629,13 +5623,7 @@ export const BLOCKS = [
         code: 7,
         x: 130,
         y: 4,
-        text: 'H₂O'
-      },
-      {
-        code: 7,
-        x: 409,
-        y: 11,
-        text: ''
+        text: 'H2O'
       },
       {
         code: 7,
@@ -5755,7 +5743,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 0,
         text: '',
         eventId: 14
@@ -5860,7 +5848,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 1,
         text: '',
         eventId: 14
@@ -5965,7 +5953,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 2,
         text: '',
         eventId: 14
@@ -6070,7 +6058,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 3,
         text: '',
         eventId: 14
@@ -6175,7 +6163,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 4,
         text: '',
         eventId: 14
@@ -6280,7 +6268,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 5,
         text: '',
         eventId: 14
@@ -6385,7 +6373,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 6,
         text: '',
         eventId: 14
@@ -6490,7 +6478,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 7,
         text: '',
         eventId: 14
@@ -6595,7 +6583,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 8,
         text: '',
         eventId: 14
@@ -6700,7 +6688,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 9,
         text: '',
         eventId: 14
@@ -6805,7 +6793,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 10,
         text: '',
         eventId: 14
@@ -6903,7 +6891,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 11,
         text: '',
         eventId: 14
@@ -7008,7 +6996,7 @@ export const BLOCKS = [
       },
       {
         code: 8,
-        x: 413,
+        x: 407,
         y: 12,
         text: '',
         eventId: 14
@@ -7280,7 +7268,7 @@ export const BLOCKS = [
     data: [
       {
         code: 9,
-        x: 414,
+        x: 411,
         y: 12,
         text: ''
       }

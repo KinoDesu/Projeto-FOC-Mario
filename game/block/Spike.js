@@ -24,6 +24,8 @@ export class Spike extends Phaser.Physics.Arcade.Sprite {
                 scene.hearts[scene.player.lifes].setTexture('noheart');
                 scene.hearts[scene.player.lifes].setAlpha(0.5);
             } else {
+                scene.scene.remove('Level');
+                scene.scene.add('GameOverScene', GameOverScene);
                 scene.scene.start('GameOverScene', { previousScene: scene.scene.key });
             }
         }, [], scene);

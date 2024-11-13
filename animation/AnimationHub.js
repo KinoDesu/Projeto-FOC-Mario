@@ -7,6 +7,12 @@ import { FreeCO2AndTurnsToAlfaCetoglutarato } from "./FreeCO2AndTurnsToAlfaCetog
 import { FreeNADH } from "./FreeNADH.js"
 import { FreeCO2AndTurnsToSuccinilCoa } from "./FreeCO2AndTurnsToSuccinilCoa.js"
 import { LoseCoaAndTurnsToSuccinato } from "./LoseCoaAndTurnsToSuccinato.js"
+import { FADAppearsAndTurnsToFADH2 } from "./FADAppearsAndTurnsToFADH2.js"
+import { SuccinatoTurnsToFumarato } from "./SuccinatoTurnsToFumarato.js"
+import { LoseOHWinHAndTurnsToMalato } from "./LoseOHWinHAndTurnsToMalato.js"
+import { NADAppearsStealAndTurnsToNADHH } from "./NADAppearsStealAndTurnsToNADHH.js"
+import { MalatoTurnsToOxaloacetato } from "./MalatoTurnsToOxaloacetato.js"
+import { EnterTheDoor } from "./EnterTheDoor.js"
 
 function removeInvisibleBlock(scene, gotEventPoint) {
     let closestDistance = Infinity;
@@ -48,12 +54,12 @@ export const animations = [
     new FreeNADH(),
     new FreeCO2AndTurnsToSuccinilCoa(),
     new LoseCoaAndTurnsToSuccinato(),
-    //new FADAppearsAndTurnsToFADH2(),
-    //new SuccinatoTurnsToFumarato(),
-    //new LoseOHWinHAndTurnsToMalato(),
-    //new NADAppearsStealAndTurnsToNADHH(),
-    //new MalatoTurnsToOxaloacetato(),
-    //new EnterTheDoor()
+    new FADAppearsAndTurnsToFADH2(),
+    new SuccinatoTurnsToFumarato(),
+    new LoseOHWinHAndTurnsToMalato(),
+    new NADAppearsStealAndTurnsToNADHH(),
+    new MalatoTurnsToOxaloacetato(),
+    new EnterTheDoor()
 ]
 
 export function startAnimation(scene, gotEventPoint) {

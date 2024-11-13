@@ -9,7 +9,10 @@ export class Star extends Phaser.Physics.Arcade.Sprite {
         this.name = config.scene.add.text(this.x, this.y - this.height / 2 - 10, config.name, {
             fontSize: '20px',
             fill: '#ffffff',
-            fontFamily: 'Arial'
+            fontFamily: 'Arial',
+            fontStyle: 'bold',
+            stroke: '#000',
+            strokeThickness: 6
         }).setOrigin(0.5);
 
         config.scene.events.on('update', () => {

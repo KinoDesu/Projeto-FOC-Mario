@@ -1,4 +1,4 @@
-import { BLOCK_SIZE, CANVA_WIDTH } from '../Config.js'
+import { BLOCK_SIZE } from '../Config.js'
 
 export class BlockingBlock extends Phaser.GameObjects.Graphics {
     constructor(config) {

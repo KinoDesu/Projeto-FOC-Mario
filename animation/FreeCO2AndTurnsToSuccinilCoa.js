@@ -92,7 +92,18 @@ export class FreeCO2AndTurnsToSuccinilCoa {
                     duration: 1000,
                     ease: 'Sine.easeOut',
                     onComplete: () => {
-                        this.turnsToSuccinilCoA();
+                        setTimeout(() => {
+                            this.scene.tweens.add({
+                                targets: this.nadh,
+                                x: this.scene.player.x + CANVA_WIDTH,
+                                y: -CANVA_HEIGHT,
+                                duration: 1500,
+                                ease: 'Sine.easeOut',
+                                onComplete: () => {
+                                    this.turnsToSuccinilCoA();
+                                }
+                            });
+                        }, 500)
                     }
                 });
 
@@ -119,7 +130,6 @@ export class FreeCO2AndTurnsToSuccinilCoa {
                 const succinilCoA = new Star({ x: this.finalXPosition, y: this.finalYPosition, scene: this.scene, name: "Succinil-CoA" });
                 succinilCoA.isGot = true;
                 this.scene.friendStars.push(succinilCoA);
-                this.scene.friendStars.push(this.nadh);
 
                 this.end();
             }

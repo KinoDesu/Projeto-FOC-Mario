@@ -1,10 +1,11 @@
 import { CANVA_WIDTH, CANVA_HEIGHT } from '../Config.js'
 import { activeControls } from "../Game.js";
-import { members } from "../item/Members.js";
-export class MembersListScene extends Phaser.Scene {
+import { MainMenuScene } from './MainMenuScene.js';
+export class WinScene extends Phaser.Scene {
     constructor() {
-        super({ key: 'MembersListScene' });
+        super({ key: 'WinScene' });
         this.selectedOption = 0;
+        this.messages = ["Você ganhou!", "Espero que esse jogo te ajude a entender o ciclo de Krebs"];
     }
 
     preload() {
@@ -16,7 +17,7 @@ export class MembersListScene extends Phaser.Scene {
 
         let margin = 2;
         const availableWidht = CANVA_WIDTH - 2 * margin;
-        const title = this.add.text(CANVA_WIDTH / 2, 0, "Membros do time", {
+        const title = this.add.text(CANVA_WIDTH / 2, 0, "Parabéns!!", {
             fontSize: `52px`,
             fill: '#c472e0',
             align: 'center',
@@ -26,21 +27,21 @@ export class MembersListScene extends Phaser.Scene {
             strokeThickness: 6
         });
 
-        const posY = margin + title.height / 1.5;
+        let posY = margin + title.height;
         title.y = posY;
+        posY += title.height + 10;
         title.setOrigin(0.5);
         title.setWordWrapWidth(availableWidht);
 
-        this.options = [];
 
 
-        members.forEach((member, index) => {
+        this.messages.forEach((message, index) => {
             let fontSize = 52;
             let textObj;
 
             do {
                 if (textObj) textObj.destroy();
-                textObj = this.add.text(CANVA_WIDTH / 2, 0, member.name, {
+                textObj = this.add.text(CANVA_WIDTH / 2, 0, message, {
                     fontSize: `${fontSize}px`,
                     align: 'center',
                     color: '#000',
@@ -50,15 +51,42 @@ export class MembersListScene extends Phaser.Scene {
                 fontSize -= 1;
             } while (textObj.width > availableWidht && fontSize >= 24);
 
-            const posY = (margin + (index + 1) * textObj.height) + textObj.height;
             textObj.y = posY;
+            posY += textObj.height + 10;
 
             textObj.setOrigin(0.5);
             textObj.setWordWrapWidth(availableWidht - margin);
-            this.options.push({
-                textObj: textObj,
-                member: member
-            });
+        });
+
+        this.options = this.options = [
+            this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 100, 'Sair', {
+                fontSize: '32px',
+                color: '#ffffff',
+                fontFamily: 'Arial',
+                fontStyle: 'bold'
+            }).setOrigin(0.5, 0.5)
+        ];
+
+        this.options.forEach((option, index) => {
+            let fontSize = 52;
+            let textObj;
+
+            do {
+                if (textObj) textObj.destroy();
+                textObj = this.add.text(CANVA_WIDTH / 2, CANVA_HEIGHT / 2 + 100, option.text, {
+                    fontSize: '32px',
+                    color: '#ffffff',
+                    fontFamily: 'Arial',
+                    fontStyle: 'bold'
+                }).setOrigin(0.5, 0.5)
+                fontSize -= 1;
+            } while (textObj.width > availableWidht && fontSize >= 24);
+
+            textObj.y = posY;
+            posY += textObj.height + 10;
+
+            textObj.setOrigin(0.5);
+            textObj.setWordWrapWidth(availableWidht - margin);
         });
 
         this.add.text(10, CANVA_HEIGHT / 2 + 215, 'ESPAÇO / B - Confirmar', { fontSize: '16px', fill: '#000', align: 'center', fontFamily: 'Arial', fontStyle: 'bold' }).setOrigin(0, 0.5);
@@ -84,20 +112,26 @@ export class MembersListScene extends Phaser.Scene {
     updateSelectedOption() {
         this.options.forEach((option, index) => {
             if (index === this.selectedOption) {
-                option.textObj.setColor('#fff');
-                option.textObj.setStroke('#000', 6)
+                option.setColor('#fff');
+                option.setStroke('#000', 6)
             } else {
-                option.textObj.setColor('#000');
-                option.textObj.setStroke('#000', 0)
+                option.setColor('#000');
+                option.setStroke('#000', 0)
             }
         });
     }
 
     selectOption() {
-        this.scene.start('MemberDetailScene', { member: this.options[this.selectOption].member });
-    }
 
-    goBack() {
+        this.scene.add('MainMenuScene', MainMenuScene);
         this.scene.start('MainMenuScene');
+        this.scene.remove("Level");
+        this.scene.remove("WinScene");
+    }
+    goBack() {
+        this.scene.add('MainMenuScene', MainMenuScene);
+        this.scene.start('MainMenuScene');
+        this.scene.remove("Level");
+        this.scene.remove("WinScene");
     }
 }

@@ -61,6 +61,7 @@ export class FreeNADH {
                                 ease: 'Sine.easeOut',
                                 onComplete: () => {
                                     this.scene.cameras.main.zoomTo(1, 1000);
+                                    this.scene.friendStars.push(this.alfaCetoglutarato)
                                     this.end();
                                 }
                             });

@@ -23,9 +23,11 @@ export class Player extends Phaser.Physics.Arcade.Sprite {
             this.setVelocityX(0);
 
             if (config.scene.controlKeys['right'].isDown) {
+                this.flipX = false;
                 this.setVelocityX(160);
             }
             else if (config.scene.controlKeys['left'].isDown) {
+                this.flipX = true;
                 this.setVelocityX(-160);
             }
 

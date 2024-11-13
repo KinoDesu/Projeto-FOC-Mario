@@ -1,5 +1,6 @@
 import { setPausedgame, CANVA_WIDTH, CANVA_HEIGHT } from '../Config.js'
 import { activeControls } from "../Game.js";
+import { MainMenuScene } from './MainMenuScene.js';
 
 export class GamePausedScene extends Phaser.Scene {
     constructor() {
@@ -71,10 +72,14 @@ export class GamePausedScene extends Phaser.Scene {
         setPausedgame(false);
         if (this.selectedOption === 0) {
             this.scene.resume('Level');
+            this.scene.remove('GamePausedScene');
+
         } else if (this.selectedOption === 1) {
-            this.scene.stop('Level');
+            this.scene.remove('Level');
+            this.scene.remove('MainMenuScene');
+            this.scene.add('MainMenuScene', MainMenuScene);
             this.scene.start('MainMenuScene');
+            this.scene.remove('GamePausedScene');
         }
-        this.scene.stop();
     }
 } 

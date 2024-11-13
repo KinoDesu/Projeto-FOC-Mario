@@ -45,10 +45,10 @@ export class AcetilAndOxalatoToCitrato {
         })
 
 
-        this.acetilCoa = new Star({ x: this.scene.friendStars[0].x, y: this.scene.friendStars[0].y, scene: this.scene, name: "acetil-CoA" });
+        this.acetilCoa = new Star({ x: this.scene.friendStars[0].x, y: this.scene.friendStars[0].y, scene: this.scene, name: "Acetil-CoA" });
         this.acetilCoa.isGot = true;
 
-        this.oxalato = new Star({ x: this.scene.friendStars[1].x, y: this.scene.friendStars[1].y, scene: this.scene, name: "oxalato" });
+        this.oxalato = new Star({ x: this.scene.friendStars[1].x, y: this.scene.friendStars[1].y, scene: this.scene, name: "Oxalato" });
         this.oxalato.isGot = true;
 
         this.acetilCoaAndOxalatoGetsDistance();
@@ -96,7 +96,7 @@ export class AcetilAndOxalatoToCitrato {
                     yoyo: true,
                     onComplete: () => {
 
-                        this.acetil = new Star({ x: this.acetilCoa.x - BLOCK_SIZE, y: this.acetilCoa.y, scene: this.scene, name: "acetil" });
+                        this.acetil = new Star({ x: this.acetilCoa.x - BLOCK_SIZE, y: this.acetilCoa.y, scene: this.scene, name: "Acetil" });
                         this.acetil.isGot = true;
 
                         const coa = new Star({ x: this.acetilCoa.x + BLOCK_SIZE, y: this.acetilCoa.y, scene: this.scene, name: "CoA" });
